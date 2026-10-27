@@ -20,6 +20,7 @@ Qui c'è tutto quello che serve a Claude per costruire il sito del negozio di mo
 - `assets/3d/`: luci e cieli per il 3D (alba e tramonto), superfici di sassi, muschio e corteccia, modelli 3D di sassi e piante, e una mosca 3D.
 - `assets/LICENZE.md`: da dove viene ogni foto e chi l'ha fatta. Sono tutte gratis e con licenza libera, ma alcune chiedono di scrivere il nome dell'autore: per questo il sito avrà una pagina "Crediti".
 - `anteprima/`: la pagina "In costruzione" di adesso.
+- `strumenti/pages.yml`: serve a Claude per mettere online il sito in automatico.
 
 ## Importante
 

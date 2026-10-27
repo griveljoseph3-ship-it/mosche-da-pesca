@@ -9,7 +9,7 @@ Clona o apri il repository GitHub **griveljoseph3-ship-it/mosche-da-pesca** (htt
 ## Come devi lavorare
 
 - Costruisci **tutto il sito in una volta sola**, dall'inizio alla fine, senza fermarti a chiedere conferme o opinioni. Se devi scegliere qualcosa, scegli tu la soluzione più bella e professionale e vai avanti.
-- Alla fine fai commit e push su `main`, controlla che il workflow di GitHub Actions finisca senza errori e che il sito sia online.
+- Alla fine fai commit e push su `main`, pubblica il sito su GitHub Pages (vedi "Tecnologia") e controlla che sia online.
 - **L'ultimo messaggio deve essere il link del sito online**: https://griveljoseph3-ship-it.github.io/mosche-da-pesca/ con due righe su cosa c'è dentro.
 
 ## Cosa c'è già nel repository (usalo)
@@ -22,8 +22,9 @@ Clona o apri il repository GitHub **griveljoseph3-ship-it/mosche-da-pesca** (htt
 - `assets/3d/modelli/`: modelli glTF Poly Haven CC0 (sassi con muschio, massi, felce, ceppo, tronco, muschio) e `mosca-secca-stilizzata/mosca-secca.glb`, una mosca secca 3D semplice creata per questo progetto.
 - `assets/catalogo-assets.json`: elenco di tutti i file con descrizione, misure e licenza.
 - `assets/LICENZE.md`: autore, licenza e fonte di ogni file. **Leggilo prima di iniziare.**
-- `anteprima/index.html`: la pagina "In costruzione" di adesso. Puoi cancellarla quando il sito vero è pronto.
-- `.github/workflows/pages.yml`: workflow che pubblica su GitHub Pages. Se c'è un `package.json` fa `npm run build` e pubblica `dist/` (o `out/`). Puoi migliorarlo, ma deve continuare a pubblicare su GitHub Pages.
+- `anteprima/index.html`: la pagina "In costruzione" che adesso è online. Puoi cancellarla quando il sito vero è pronto.
+- `strumenti/pages.yml`: un workflow GitHub Actions già pronto che fa `npm run build` e pubblica `dist/` (o `out/`) su GitHub Pages.
+- Adesso GitHub Pages è attivo e pubblica il branch `gh-pages` (cartella principale), dove c'è la pagina "In costruzione".
 
 Regole sugli asset:
 - Usa le foto e i modelli di questo repository. Non usare foto prese da negozi o da Google Immagini. Se ti serve altro, usa solo materiale CC0 (per esempio Poly Haven) o crealo tu (shader, geometrie procedurali, SVG) e aggiungilo a `assets/LICENZE.md`.
@@ -80,7 +81,11 @@ Home (il fiume), Negozio con filtri, Scheda prodotto, Calendario delle schiuse, 
 
 - **Vite + React** (oppure Next.js con `output: 'export'`), **React Three Fiber** e **drei** (Three.js) per il 3D, **GSAP ScrollTrigger** per le animazioni allo scorrimento, **Lenis** per lo scorrimento morbido.
 - Modelli in GLB compressi con **Draco**, caricati solo quando servono (lazy loading), con `Suspense` e un caricamento elegante.
-- Sito statico, pubblicato su **GitHub Pages** con il workflow in `.github/workflows/pages.yml`.
+- Sito statico, pubblicato su **GitHub Pages con un workflow GitHub Actions**:
+  1. sposta `strumenti/pages.yml` in `.github/workflows/pages.yml` (puoi migliorarlo);
+  2. passa GitHub Pages da "branch gh-pages" a "GitHub Actions", per esempio con `gh api -X PUT repos/griveljoseph3-ship-it/mosche-da-pesca/pages -f build_type=workflow`;
+  3. fai push su `main` e controlla che il workflow diventi verde.
+  - **Piano B:** se GitHub rifiuta il push del file del workflow (manca il permesso `workflow`), non bloccarti: fai la build in locale e pubblica la cartella `dist/` sul branch `gh-pages` (per esempio con `npx gh-pages -d dist --dotfiles`, aggiungendo un file `.nojekyll`). Pages è già configurato per quel branch, quindi il link funziona subito.
 - **Base path corretto:** il sito vive su `/mosche-da-pesca/`. Con Vite imposta `base: '/mosche-da-pesca/'`; con Next.js imposta `basePath` e `assetPrefix`. Tutti i link e gli asset devono funzionare su https://griveljoseph3-ship-it.github.io/mosche-da-pesca/ . Per le pagine interne usa un router che funzioni su GitHub Pages (per esempio HashRouter, oppure un `404.html` che reindirizza).
 - In **italiano**, con i testi in un file separato così l'inglese si aggiunge facilmente dopo.
 
@@ -96,5 +101,5 @@ Home (il fiume), Negozio con filtri, Scheda prodotto, Calendario delle schiuse, 
 ## Quando hai finito
 
 1. Fai commit e push su `main`.
-2. Controlla che il workflow "Pubblica su GitHub Pages" sia verde e che il link si apra.
+2. Controlla che la pubblicazione sia finita (workflow verde, oppure branch `gh-pages` aggiornato con il Piano B) e che il link si apra davvero, con foto e 3D che si caricano.
 3. Scrivi a Joseph il link: **https://griveljoseph3-ship-it.github.io/mosche-da-pesca/**
