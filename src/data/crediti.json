@@ -1,0 +1,609 @@
+{
+ "foto": [
+  {
+   "file": "secca-adams-wulff.jpg",
+   "autore": "Mike Cline",
+   "licenza": "CC BY-SA 4.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Adams_Wulff_Dry_Fly_01.jpg"
+  },
+  {
+   "file": "secca-adams.jpg",
+   "autore": "Mike Cline",
+   "licenza": "Public domain",
+   "licenzaUrl": null,
+   "fonte": "https://commons.wikimedia.org/wiki/File:AdamsDryFly.jpg"
+  },
+  {
+   "file": "secca-adams-n12.jpg",
+   "autore": "Drcooling",
+   "licenza": "CC BY-SA 3.0",
+   "licenzaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "fonte": "https://commons.wikimedia.org/wiki/File:MoscaAdams.jpg"
+  },
+  {
+   "file": "secca-elk-hair-caddis.jpg",
+   "autore": "Mike Cline",
+   "licenza": "CC BY-SA 3.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Elk_Hair_Caddis.JPG"
+  },
+  {
+   "file": "secca-klinkhammer.jpg",
+   "autore": "Mike Cline",
+   "licenza": "CC BY-SA 4.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Klinkhammer_Special_Dry_Fly.jpg"
+  },
+  {
+   "file": "secca-royal-wulff.jpg",
+   "autore": "Mike Cline",
+   "licenza": "CC BY-SA 4.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Royal_Wulff_Dry_Fly_01.jpg"
+  },
+  {
+   "file": "secca-stimulator.jpg",
+   "autore": "Mike Cline",
+   "licenza": "CC BY-SA 4.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Stimulator_dry_fly.jpg"
+  },
+  {
+   "file": "secca-black-wulff.jpg",
+   "autore": "DeliciousDunder",
+   "licenza": "CC0",
+   "licenzaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Black_Wulff_dry_fly.jpg"
+  },
+  {
+   "file": "secca-royal-humpy.jpg",
+   "autore": "Mike Cline",
+   "licenza": "Public domain",
+   "licenzaUrl": null,
+   "fonte": "https://commons.wikimedia.org/wiki/File:RoyalHumpy.JPG"
+  },
+  {
+   "file": "secca-sparkle-dun.jpg",
+   "autore": "Mike Cline",
+   "licenza": "CC BY-SA 4.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:BWO_Olive_Sparkle_Dun.jpg"
+  },
+  {
+   "file": "secca-light-cahill.jpg",
+   "autore": "Freyfisher",
+   "licenza": "CC BY-SA 2.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Light_Cahill_dry_flies.jpg"
+  },
+  {
+   "file": "secche-su-piume.jpg",
+   "autore": "Ermell",
+   "licenza": "CC BY-SA 4.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Trockenfliegen_Fliegenfischen-20071202-RM-154224.jpg"
+  },
+  {
+   "file": "ninfa-prince-testa-oro.jpg",
+   "autore": "G. Moore",
+   "licenza": "CC BY-SA 4.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Bead_Head_Prince_Nymph.jpg"
+  },
+  {
+   "file": "ninfa-orecchio-di-lepre.jpg",
+   "autore": "Drcooling",
+   "licenza": "CC BY-SA 3.0",
+   "licenzaUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+   "fonte": "https://commons.wikimedia.org/wiki/File:MoscaOrejaDeLiebre.jpg"
+  },
+  {
+   "file": "ninfa-montana-stone.jpg",
+   "autore": "Mike Cline",
+   "licenza": "Public domain",
+   "licenzaUrl": null,
+   "fonte": "https://commons.wikimedia.org/wiki/File:BrooksMontanaStone.jpg"
+  },
+  {
+   "file": "ninfa-perlide-nera.jpg",
+   "autore": "Mike Cline",
+   "licenza": "CC BY-SA 4.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Matt_Minch_Black_Stonefly_Nymph.jpg"
+  },
+  {
+   "file": "ninfa-march-brown.jpg",
+   "autore": "Jan Doné - sportovní rybář",
+   "licenza": "CC BY 3.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by/3.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Nymfa_B%C5%99eznovky_IMG_1092.JPG"
+  },
+  {
+   "file": "ninfa-soft-hackle.jpg",
+   "autore": "Mike Cline",
+   "licenza": "CC BY-SA 4.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Olive_quill_soft_hackle_nymph.jpg"
+  },
+  {
+   "file": "streamer-clouser.jpg",
+   "autore": "Mike Cline",
+   "licenza": "CC BY-SA 4.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Traditional_Chartreuse_Clouser_Deep_Minnow.jpg"
+  },
+  {
+   "file": "streamer-woolly-bugger.jpg",
+   "autore": "Mike Cline",
+   "licenza": "Public domain",
+   "licenzaUrl": null,
+   "fonte": "https://commons.wikimedia.org/wiki/File:BlackandBrownBeadheadWoollyBugger.jpg"
+  },
+  {
+   "file": "streamer-muddler.jpg",
+   "autore": "Martin Joergensen",
+   "licenza": "CC BY-SA 3.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Original_Don_Gapen_Muddler_Minnow.jpg"
+  },
+  {
+   "file": "streamer-mickey-finn.jpg",
+   "autore": "Mike Cline",
+   "licenza": "CC BY-SA 4.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Mickey_Finn_(1936"
+  },
+  {
+   "file": "streamer-white-minnow.jpg",
+   "autore": "Mike Cline",
+   "licenza": "Public domain",
+   "licenzaUrl": null,
+   "fonte": "https://commons.wikimedia.org/wiki/File:SchenksWhiteMinnow1.jpg"
+  },
+  {
+   "file": "sommersa-royal-coachman.jpg",
+   "autore": "DeliciousDunder",
+   "licenza": "CC0",
+   "licenzaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Royal_Coachman.jpg"
+  },
+  {
+   "file": "sommersa-starna-fagiano.jpg",
+   "autore": "Mike Cline",
+   "licenza": "CC0",
+   "licenzaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "fonte": "https://commons.wikimedia.org/wiki/File:PartridgeAndPheasantTail.jpg"
+  },
+  {
+   "file": "sommersa-grizzly-king.jpg",
+   "autore": "Mike Cline",
+   "licenza": "Public domain",
+   "licenzaUrl": null,
+   "fonte": "https://commons.wikimedia.org/wiki/File:Grizzly_King_Wet_Fly.jpg"
+  },
+  {
+   "file": "sommersa-alexandra.jpg",
+   "autore": "Mike Cline",
+   "licenza": "CC BY-SA 4.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Alexandra_Wet_Fly.jpg"
+  },
+  {
+   "file": "salmone-green-highlander.jpg",
+   "autore": "MichaelMaggs",
+   "licenza": "CC BY-SA 3.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Green_Highlander_salmon_fly.jpg"
+  },
+  {
+   "file": "salmone-su-piume.jpg",
+   "autore": "Ermell",
+   "licenza": "CC BY-SA 4.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Lachsfliegen_mit_Federn-20071204-RM-113502.jpg"
+  },
+  {
+   "file": "scatole-di-mosche.jpg",
+   "autore": "Mike Cline",
+   "licenza": "Public domain",
+   "licenzaUrl": null,
+   "fonte": "https://commons.wikimedia.org/wiki/File:AssortedFlyBoxes.jpg"
+  },
+  {
+   "file": "scatola-mosche-sacramento.jpg",
+   "autore": "Sonovawolf",
+   "licenza": "CC BY-SA 4.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Upper_Sacramento_fly_box.jpg"
+  },
+  {
+   "file": "vassoio-mosche-trota.jpg",
+   "autore": "Mike Cline",
+   "licenza": "Public domain",
+   "licenzaUrl": null,
+   "fonte": "https://commons.wikimedia.org/wiki/File:CustomTroutFlies-ParksFlyShop.jpg"
+  },
+  {
+   "file": "canne-da-mosca.jpg",
+   "autore": "Waldemarpaetz Troutster.com",
+   "licenza": "CC BY 3.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by/3.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Fly_fishing_rods.JPG"
+  },
+  {
+   "file": "mulinello-fladen.jpg",
+   "autore": "R. Henrik Nilsson",
+   "licenza": "CC BY 4.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by/4.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:2000s_Fladen_Fishing_Fly_6_fly_fishing_reel_by_Fladen_Fishing_AB_Sweden.jpg"
+  },
+  {
+   "file": "mulinello-large-arbor.jpg",
+   "autore": "R. Henrik Nilsson",
+   "licenza": "CC BY 4.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by/4.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:2000s_British_Fly_Reels_BFR_DragonFly_Large_Arbor_70_fly_fishing_reel.jpg"
+  },
+  {
+   "file": "mulinelli-vetrina.jpg",
+   "autore": "Mike Cline",
+   "licenza": "Public domain",
+   "licenzaUrl": null,
+   "fonte": "https://commons.wikimedia.org/wiki/File:FlyReelsAtAFlyFishingShow.jpg"
+  },
+  {
+   "file": "canna-e-mulinello-su-foglie.jpg",
+   "autore": "Djupsjo",
+   "licenza": "Public domain",
+   "licenzaUrl": null,
+   "fonte": "https://commons.wikimedia.org/wiki/File:Rodonleaf.JPG"
+  },
+  {
+   "file": "coda-di-topo-seta.jpg",
+   "autore": "Tom Hart from Ashland, OH, USA",
+   "licenza": "CC BY 2.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by/2.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Trout_snob_-_Flickr_-_thart2009.jpg"
+  },
+  {
+   "file": "kit-principiante.jpg",
+   "autore": "Marco Solar",
+   "licenza": "CC BY-SA 4.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Flyfishing-set.jpg"
+  },
+  {
+   "file": "canna-bambu.jpg",
+   "autore": "aliferste",
+   "licenza": "CC BY 2.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by/2.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Bamboo_fly_rod_(51481672"
+  },
+  {
+   "file": "morsa-costruzione.jpg",
+   "autore": "BLM Alaska",
+   "licenza": "Public domain",
+   "licenzaUrl": null,
+   "fonte": "https://commons.wikimedia.org/wiki/File:Fly-tying_(53723909810"
+  },
+  {
+   "file": "costruzione-mosca-primo-piano.jpg",
+   "autore": "BLM Alaska",
+   "licenza": "Public domain",
+   "licenzaUrl": null,
+   "fonte": "https://commons.wikimedia.org/wiki/File:Fly-tying_closeup_(53722611722"
+  },
+  {
+   "file": "torrente-sudtirolo.jpg",
+   "autore": "D2swirl",
+   "licenza": "CC BY-SA 4.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Gebirgsbach_im_Rieserfernergebirge.jpg"
+  },
+  {
+   "file": "torrente-graubuenden.jpg",
+   "autore": "Burkhard Händel",
+   "licenza": "CC BY-SA 4.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Gebirgsbach_in_Graub%C3%BCnden_(Schweiz"
+  },
+  {
+   "file": "torrente-oberstdorf.jpg",
+   "autore": "Gottfried Hoffmann -…",
+   "licenza": "CC BY 3.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by/3.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Gebirgsbach_Oberstdorf_Alpen_-_panoramio.jpg"
+  },
+  {
+   "file": "torrente-alpino-nz.jpg",
+   "autore": "Bernard Spragg. NZ from Christchurch, New Zealand",
+   "licenza": "CC0",
+   "licenzaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Alpine_stream_Mt_Cook_NP._NZ_(23549939109"
+  },
+  {
+   "file": "torrente-bosco-oirase.jpg",
+   "autore": "Daderot",
+   "licenza": "CC0",
+   "licenzaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Oirase_Mountain_Stream_-_Towada,_Aomori_-_DSC00943.jpg"
+  },
+  {
+   "file": "soca-kobarid.jpg",
+   "autore": "Qasinka",
+   "licenza": "CC0",
+   "licenzaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "fonte": "https://commons.wikimedia.org/wiki/File:2025_So%C4%8Da_in_Kobarid.jpg"
+  },
+  {
+   "file": "soca-slovenia.jpg",
+   "autore": "Aschroet",
+   "licenza": "CC0",
+   "licenzaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "fonte": "https://commons.wikimedia.org/wiki/File:So%C4%8Da_river,_Slovenia.jpg"
+  },
+  {
+   "file": "val-ferret.jpg",
+   "autore": "Ekbueno",
+   "licenza": "CC BY-SA 4.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Talweg_of_Val_Ferret.jpg"
+  },
+  {
+   "file": "nebbia-mattino.jpg",
+   "autore": "GlacierNPS",
+   "licenza": "Public domain",
+   "licenzaUrl": null,
+   "fonte": "https://commons.wikimedia.org/wiki/File:Morning_Mist_(20696678001"
+  },
+  {
+   "file": "pescatore-soca.jpg",
+   "autore": "Ivanlaharnar",
+   "licenza": "CC BY-SA 4.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Fly-fishing-the-Soca-river-Slovenia.jpg"
+  },
+  {
+   "file": "pescatore-savinja.jpg",
+   "autore": "praimann",
+   "licenza": "CC0",
+   "licenzaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Fly_fishing_in_Savinja_2010.jpg"
+  },
+  {
+   "file": "pescatore-ain.jpg",
+   "autore": "Wikipedro",
+   "licenza": "CC BY-SA 4.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Champagnole,_p%C3%AAcheur_%C3%A0_la_mouche_sur_la_rivi%C3%A8re_Ain.jpg"
+  },
+  {
+   "file": "pescatore-madison.jpg",
+   "autore": "Neal Herbert",
+   "licenza": "Public domain",
+   "licenzaUrl": null,
+   "fonte": "https://commons.wikimedia.org/wiki/File:Fly_fishing_on_the_Madison_River_(261315bc-6be6-4d94-868b-a6408d0b4d95"
+  },
+  {
+   "file": "pescatore-seedskadee.jpg",
+   "autore": "USFWS Mountain-Prairie",
+   "licenza": "Public domain",
+   "licenzaUrl": null,
+   "fonte": "https://commons.wikimedia.org/wiki/File:Fly_fishing_-_Flickr_-_USFWS_Mountain_Prairie.jpg"
+  },
+  {
+   "file": "trota-fario-sott-acqua.jpg",
+   "autore": "Jürgen Karvak",
+   "licenza": "CC BY 4.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by/4.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Brown_trout_08.2024.jpg"
+  },
+  {
+   "file": "trota-fario-vetro.jpg",
+   "autore": "USFWS Mountain Prairie",
+   "licenza": "Public domain",
+   "licenzaUrl": null,
+   "fonte": "https://commons.wikimedia.org/wiki/File:Brown_Trout_(51238488071"
+  },
+  {
+   "file": "trota-fario-leon.jpg",
+   "autore": "Robermix",
+   "licenza": "CC0",
+   "licenzaUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Salmo_trutta_fario.jpg"
+  },
+  {
+   "file": "trota-presa-a-mosca.jpg",
+   "autore": "Mike Cline",
+   "licenza": "Public domain",
+   "licenzaUrl": null,
+   "fonte": "https://commons.wikimedia.org/wiki/File:BrownTroutandSoftHackleNymph.JPG"
+  },
+  {
+   "file": "effimera-adulta.jpg",
+   "autore": "gailhampshire from Cradley, Malvern, U.K",
+   "licenza": "CC BY 2.0",
+   "licenzaUrl": "https://creativecommons.org/licenses/by/2.0",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Green_Drake_Mayfly._Ephemera_danica_-_Flickr_-_gailhampshire.jpg"
+  }
+ ],
+ "tre": [
+  {
+   "tipo": "HDRI (luce e cielo)",
+   "file": "assets/3d/hdri/kiara_1_dawn_2k.hdr",
+   "autore": "Greg Zaal",
+   "licenza": "CC0 1.0",
+   "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "fonte": "https://polyhaven.com/a/kiara_1_dawn"
+  },
+  {
+   "tipo": "HDRI (luce e cielo)",
+   "file": "assets/3d/hdri/misty_dawn_2k.hdr",
+   "autore": "Greg Zaal",
+   "licenza": "CC0 1.0",
+   "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "fonte": "https://polyhaven.com/a/misty_dawn"
+  },
+  {
+   "tipo": "HDRI (luce e cielo)",
+   "file": "assets/3d/hdri/stream_2k.hdr",
+   "autore": "Greg Zaal",
+   "licenza": "CC0 1.0",
+   "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "fonte": "https://polyhaven.com/a/stream"
+  },
+  {
+   "tipo": "HDRI (luce e cielo)",
+   "file": "assets/3d/hdri/river_rocks_2k.hdr",
+   "autore": "Greg Zaal",
+   "licenza": "CC0 1.0",
+   "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "fonte": "https://polyhaven.com/a/river_rocks"
+  },
+  {
+   "tipo": "HDRI (luce e cielo)",
+   "file": "assets/3d/hdri/near_the_river_02_2k.hdr",
+   "autore": "Sergej Majboroda",
+   "licenza": "CC0 1.0",
+   "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "fonte": "https://polyhaven.com/a/near_the_river_02"
+  },
+  {
+   "tipo": "HDRI (luce e cielo)",
+   "file": "assets/3d/hdri/kiara_8_sunset_2k.hdr",
+   "autore": "Greg Zaal",
+   "licenza": "CC0 1.0",
+   "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "fonte": "https://polyhaven.com/a/kiara_8_sunset"
+  },
+  {
+   "tipo": "HDRI (luce e cielo)",
+   "file": "assets/3d/hdri/misty_pines_2k.hdr",
+   "autore": "Greg Zaal",
+   "licenza": "CC0 1.0",
+   "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "fonte": "https://polyhaven.com/a/misty_pines"
+  },
+  {
+   "tipo": "Texture 1k",
+   "file": "assets/3d/texture/river_small_rocks/",
+   "autore": "Rob Tuytel, Rico Cilliers",
+   "licenza": "CC0 1.0",
+   "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "fonte": "https://polyhaven.com/a/river_small_rocks"
+  },
+  {
+   "tipo": "Texture 1k",
+   "file": "assets/3d/texture/dry_river_pebbles/",
+   "autore": "Amal Kumar",
+   "licenza": "CC0 1.0",
+   "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "fonte": "https://polyhaven.com/a/dry_river_pebbles"
+  },
+  {
+   "tipo": "Texture 1k",
+   "file": "assets/3d/texture/ganges_river_pebbles/",
+   "autore": "Amal Kumar",
+   "licenza": "CC0 1.0",
+   "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "fonte": "https://polyhaven.com/a/ganges_river_pebbles"
+  },
+  {
+   "tipo": "Texture 1k",
+   "file": "assets/3d/texture/mossy_rock/",
+   "autore": "Rob Tuytel",
+   "licenza": "CC0 1.0",
+   "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "fonte": "https://polyhaven.com/a/mossy_rock"
+  },
+  {
+   "tipo": "Texture 1k",
+   "file": "assets/3d/texture/forest_leaves_02/",
+   "autore": "Rob Tuytel",
+   "licenza": "CC0 1.0",
+   "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "fonte": "https://polyhaven.com/a/forest_leaves_02"
+  },
+  {
+   "tipo": "Texture 1k",
+   "file": "assets/3d/texture/bark_brown_02/",
+   "autore": "Rob Tuytel",
+   "licenza": "CC0 1.0",
+   "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "fonte": "https://polyhaven.com/a/bark_brown_02"
+  },
+  {
+   "tipo": "Texture 1k",
+   "file": "assets/3d/texture/rock_ground/",
+   "autore": "Rob Tuytel",
+   "licenza": "CC0 1.0",
+   "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "fonte": "https://polyhaven.com/a/rock_ground"
+  },
+  {
+   "tipo": "Modello glTF 1k",
+   "file": "assets/3d/modelli/rock_moss_set_01/",
+   "autore": "Kless Gyzen",
+   "licenza": "CC0 1.0",
+   "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "fonte": "https://polyhaven.com/a/rock_moss_set_01"
+  },
+  {
+   "tipo": "Modello glTF 1k",
+   "file": "assets/3d/modelli/boulder_01/",
+   "autore": "Rico Cilliers",
+   "licenza": "CC0 1.0",
+   "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "fonte": "https://polyhaven.com/a/boulder_01"
+  },
+  {
+   "tipo": "Modello glTF 1k",
+   "file": "assets/3d/modelli/stone_01/",
+   "autore": "Dario Barresi, Rico Cilliers",
+   "licenza": "CC0 1.0",
+   "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "fonte": "https://polyhaven.com/a/stone_01"
+  },
+  {
+   "tipo": "Modello glTF 1k",
+   "file": "assets/3d/modelli/moss_01/",
+   "autore": "Rob Tuytel",
+   "licenza": "CC0 1.0",
+   "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "fonte": "https://polyhaven.com/a/moss_01"
+  },
+  {
+   "tipo": "Modello glTF 1k",
+   "file": "assets/3d/modelli/fern_02/",
+   "autore": "Rob Tuytel, Rico Cilliers",
+   "licenza": "CC0 1.0",
+   "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "fonte": "https://polyhaven.com/a/fern_02"
+  },
+  {
+   "tipo": "Modello glTF 1k",
+   "file": "assets/3d/modelli/tree_stump_01/",
+   "autore": "Rob Tuytel",
+   "licenza": "CC0 1.0",
+   "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "fonte": "https://polyhaven.com/a/tree_stump_01"
+  },
+  {
+   "tipo": "Modello glTF 1k",
+   "file": "assets/3d/modelli/dead_tree_trunk/",
+   "autore": "Rob Tuytel",
+   "licenza": "CC0 1.0",
+   "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "fonte": "https://polyhaven.com/a/dead_tree_trunk"
+  },
+  {
+   "tipo": "Modello 3D",
+   "file": "assets/3d/modelli/mosca-secca-stilizzata/mosca-secca.glb",
+   "autore": "Creato con codice per questo repository",
+   "licenza": "CC0 1.0",
+   "licenzaUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+   "fonte": null
+  }
+ ]
+}

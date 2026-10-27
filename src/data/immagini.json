@@ -1,0 +1,706 @@
+{
+ "mosche/ninfa-march-brown": {
+  "w": 2000,
+  "h": 1500,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwBACdASoYABIAPu1gpk6ppSMiMBgMATAdiWIAuzOOwDoePSAMXo7pjQAA/G2B4Q1gD/2hP1KdrL6Xebd2cMaCxFDq4oaUtdRULTF9jCmXNtILTNeAMTZlrzzPeKAAAAA=",
+  "colore": "rgb(40,120,184)"
+ },
+ "mosche/ninfa-montana-stone": {
+  "w": 2000,
+  "h": 1438,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAwBACdASoYABEAPuVepk2pJSOiN/VYASAciWMAxvQI3m7oF4JHlPQgEAAA9x8M1Ae1ALo5TumQYahyseapjbH1wymOTnVpNIusaHEVTDxN2XjdCmTBGOyPK7q1b6SQAAA=",
+  "colore": "rgb(184,152,104)"
+ },
+ "mosche/ninfa-orecchio-di-lepre": {
+  "w": 2000,
+  "h": 1333,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADwAwCdASoYABAAPu1krU6ppaSiMAgBMB2JZQC06CHhXNu9DDoxATtAAP6vBBgbvEA3bbywqJbaoDjpo/ROZaTXo7MvAAAA",
+  "colore": "rgb(216,200,184)"
+ },
+ "mosche/ninfa-perlide-nera": {
+  "w": 2000,
+  "h": 1532,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQBACdASoYABIAPu1gp02ppaOiMAgBMB2JYgCdL3WBz9hmnvp+Lw6/9yEwAP7o2KyuhMsBy/gtTzT8GX6xFnmBaCfFVOdeFhNX2i85RX1s3mKET1MQQ2ui/ieJitJf68aXlE0WXtwcAA==",
+  "colore": "rgb(40,40,104)"
+ },
+ "mosche/ninfa-prince-testa-oro": {
+  "w": 1884,
+  "h": 1224,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAAAQBACdASoYABAAPu1iqU2ppaQiMAgBMB2JagCdMoRwACEPQdde4VRskAD+ECBGMRvluqf5EM9h18e9x2t+A3nciCIGaY8WPsBBAMeZfVIrAAAA",
+  "colore": "rgb(72,152,168)"
+ },
+ "mosche/ninfa-soft-hackle": {
+  "w": 2000,
+  "h": 1500,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACwAwCdASoYABIAPu1sq1EppaOiqAqpMB2JQBBcoIvm06vdopOMAAD+4rSvozmTx8+/bD//cHyNTx8x/2vlk5Wb5wT7scHa/NGBS3AA",
+  "colore": "rgb(152,8,8)"
+ },
+ "mosche/salmone-green-highlander": {
+  "w": 2000,
+  "h": 1333,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAADQAwCdASoYABAAPu1orU2ppqSiMAgBMB2JagABHvAM3+vPcbqZWmAA/v5xm1E0qA1ZBXsi3ipe5bdJ1spvkCla+nh+UP/Zxie99kS2sf7Yo7kYkR/64wAA",
+  "colore": "rgb(8,8,8)"
+ },
+ "mosche/salmone-su-piume": {
+  "w": 2000,
+  "h": 1500,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRnwAAABXRUJQVlA4IHAAAADwBACdASoYABIAPu1qr1CppaQiqAqpMB2JQBOgAVR/GhvDmFdw48UiRGr3v1aZ6gAA/ujvs8fWgK2Sm7AzQefN884NKIeTl4mf6CAkR4FpaD2bLteb3jEeRCmh0PqQ9hvPIjGFtUyihhFEpWXTQAAA",
+  "colore": "rgb(200,200,200)"
+ },
+ "mosche/secca-adams-n12": {
+  "w": 2000,
+  "h": 1333,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAADQAwCdASoYABAAPu1orU2ppqSiMAgBMB2JZQCsACHf3dZ91n5kxFAA/c6Y4akRs7oDk52LjZc4lUqVYlUhjaWTPshrwrAA",
+  "colore": "rgb(184,168,168)"
+ },
+ "mosche/secca-adams-wulff": {
+  "w": 2000,
+  "h": 1516,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAQBQCdASoYABIAPuFWpE2opKOiN/qoARAcCWIAnTLfAz8Zyoohn6Pq0h7ZDiswQDEAAP70JOxBJHbxHUnzhrQiCm2sMm+A482pjM7Gp/NIFjHvx6amliamuBadSIU1H4mXAE/fEbVP7hlJAAA=",
+  "colore": "rgb(8,8,56)"
+ },
+ "mosche/secca-adams": {
+  "w": 2000,
+  "h": 1866,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRn4AAABXRUJQVlA4IHIAAAAwBACdASoYABYAPtVUoU2oJKMiN+gBABqJagB4/gaFWGpOVkDew4Al9YAA/ow5ojTjXc24A9qNTCTf//mCf6/fYua3NaN09md+vixKj1OF+nKGyW4+IbLG6nVOLsmpyHakb66ou6HyarbGOHizaY7AAAA=",
+  "colore": "rgb(200,200,8)"
+ },
+ "mosche/secca-black-wulff": {
+  "w": 1200,
+  "h": 973,
+  "sizes": [
+   480,
+   960,
+   1200
+  ],
+  "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACQBACdASoYABMAPulepk2pJSOiN/VYASAdCWkAAC32JGXMFOi4fn/vqWKDEAAA/u3qrAXC1C6d2McQCWplMSnSRvmIs1tDuiWbJVnxdPXcbIFq08AAAA==",
+  "colore": "rgb(248,248,248)"
+ },
+ "mosche/secca-elk-hair-caddis": {
+  "w": 2000,
+  "h": 1500,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQBACdASoYABIAPu1kpk2ppaMiMBgMATAdiWMAnTNMQLTjydiJ6VI1MADWgzdIjqzzGqW1UQ6WuLm5eq0M3APAr/cNF1XtPspTnxA7UpWoc3EUnpad3k0YfJDAAA==",
+  "colore": "rgb(184,136,104)"
+ },
+ "mosche/secca-klinkhammer": {
+  "w": 2000,
+  "h": 1500,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAAAQBACdASoYABIAPu1oqlAppaOiqA1RMB2JQBdgAY6gWnuPf9LJbZGJ6AD9zusDewWGsFrjuhzmZwFZyk3r6VtSe6bvKJNEgYNE+4Hs+rtUbxgdt74xYlIAjWVAJQHvX9dMvjgAAAA=",
+  "colore": "rgb(168,152,120)"
+ },
+ "mosche/secca-light-cahill": {
+  "w": 2000,
+  "h": 1494,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADwAwCdASoYABIAPu1qr1AppiQiqAqpMB2JZQC3uA3sM0vIqD3NN/hgAPyZofnibrnMyiF3bv4wmkYDgP/SmJV8q8Umi3x6wYpZ7X95RtjxYOqd81OjalgboAA=",
+  "colore": "rgb(88,40,24)"
+ },
+ "mosche/secca-royal-humpy": {
+  "w": 2000,
+  "h": 1500,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAQBACdASoYABIAPu1srlCppiQiqAqpMB2JZQC90A9AxSbUjEiBqA3mgADZwzymYxNcqrMYx89liGvltmN+q3qzDcJl/v5guXP/ikdkpn/xSMphYxMBPawAAAA=",
+  "colore": "rgb(152,152,152)"
+ },
+ "mosche/secca-royal-wulff": {
+  "w": 1876,
+  "h": 1751,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRoAAAABXRUJQVlA4IHQAAACwBACdASoYABYAPtleo02oJaMiN/qoAQAbCUAXZfXgLtP/D63pIsXPXfcikb1AAP70Mqf7fe/odYTI3mlWbbxbelb7p5lraqQRkr2hBCmDZq/XKhQSarN/2niZ4pFnlmC5FZKcy59iPjhC95IzYImqbeAAAA==",
+  "colore": "rgb(8,8,56)"
+ },
+ "mosche/secca-sparkle-dun": {
+  "w": 1915,
+  "h": 1662,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAwBQCdASoYABUAPtFUoU2oJKMiN+gBABoJYgCsMyMsAAWrXT6frgVwvmqzlCyt+MQ0AAD+9Bn4ex9f7djjM+H+HndGwSOpQ3LbQAwzbEzlXTtD4dZ2cMPYbrzDF56y+ES1anbvuRVjhU3AAAA=",
+  "colore": "rgb(8,24,72)"
+ },
+ "mosche/secca-stimulator": {
+  "w": 2000,
+  "h": 1500,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAwBACdASoYABIAPu1kpk2ppaMiMBgMATAdiWIAAC2uVfcgi77rpzU29IAA/uL1c+OIt3LXUN1bP7m72mv/6u+y3fews5Kl013tYC5u9hORBeb2MyhtGIlDye+1MQAA",
+  "colore": "rgb(152,8,24)"
+ },
+ "mosche/secche-su-piume": {
+  "w": 2000,
+  "h": 1509,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAACQBACdASoYABIAPu1grFAppSQisBgIATAdiWMAqPQJEn4oH1lqz0wRB7JK8PQA/aV8HKC5B6ZLdtVkB6ndfffE3FAdBH5PRZi/kq7k/dyjNwEMc0WBywCtmZz+P7SvK1k+cr630AY5MSMSOA3SDlwgRQbLp2H3gAA=",
+  "colore": "rgb(232,232,232)"
+ },
+ "mosche/sommersa-alexandra": {
+  "w": 2000,
+  "h": 1500,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAABwBACdASoYABIAPu1qqk8ppiOiMBgIATAdiUAWI/AQNUCNim0p0bE049jxIAD+69AaOD1ROhOZ3SaIfVP/mkyNmR432CDDIc6xYx3v9hGtSmAGoAA=",
+  "colore": "rgb(24,40,104)"
+ },
+ "mosche/sommersa-grizzly-king": {
+  "w": 2000,
+  "h": 1500,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAwCdASoYABIAPtFYok2oJaMiN+gBABoJZwC+SDJPsPmiCXmLuOuAAPzBlib9yPbemurDmZNzFo1G5g2Gp2E1S9F+6Ek6Gq8Oq/cu1M+9cAAA",
+  "colore": "rgb(200,184,168)"
+ },
+ "mosche/sommersa-royal-coachman": {
+  "w": 2000,
+  "h": 1651,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADQAwCdASoYABQAPu1gqE2ppSOiMAgBMB2JZQAAUd6JeFufGVjSw0AA/FpSOfMgyohL0EaTiP1jfmBinZRGcsVjQDeMl6UtSvPn1KtsQAA=",
+  "colore": "rgb(184,184,184)"
+ },
+ "mosche/sommersa-starna-fagiano": {
+  "w": 1869,
+  "h": 1426,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACQAwCdASoYABIAPt1ao02opSMiN/qoARAbiWcAwzRfIwPwHzagAP6nzZKPCtFhPk0H+39EyA16D4t0Jrrgmk3HxVfObTITlzq1kbgAAAA=",
+  "colore": "rgb(152,136,120)"
+ },
+ "mosche/streamer-clouser": {
+  "w": 2000,
+  "h": 1045,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAADQAwCdASoYAAwAPu1Ct1apoqakGAEwHYliAJ0AHoQbvfBE6a5T8AAA/vDfe4++w7QxnTsSdxyJfla3h8AYo6nAfSsBqDswJY2uDvmmQHJ1Frw7fi5A8nrmAAA=",
+  "colore": "rgb(8,8,40)"
+ },
+ "mosche/streamer-mickey-finn": {
+  "w": 2000,
+  "h": 1345,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRmYAAABXRUJQVlA4IFoAAAAwBACdASoYABAAPu1krU2ppaSiMAgBMB2JZgCdMoADTqwHGILTm8I9mgAA/vKqg+vXaRock2g7mpGDzmK8pXDdP4m7DXG/qlO3Co+k8MO7To9lMaDlMUwAAAA=",
+  "colore": "rgb(8,8,40)"
+ },
+ "mosche/streamer-muddler": {
+  "w": 1920,
+  "h": 1275,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRk4AAABXRUJQVlA4IEIAAACwAwCdASoYABAAPu1orU6ppiSiMAgBMB2JZQDImBt0z+m00ObKAAD3Hxx9lt+GBEismeRnEM2+U8apGRvEBDz8EAA=",
+  "colore": "rgb(152,152,152)"
+ },
+ "mosche/streamer-white-minnow": {
+  "w": 2000,
+  "h": 1187,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAACQAwCdASoYAA4APu1iqU2ppaOiMAgBMB2JQBOgAkL/lF2/WjIAAP4QYIS+/GMDRvoelGl1iYGXvctErXBlqd3Nc8HuW5H37RiqAAAA",
+  "colore": "rgb(168,136,88)"
+ },
+ "mosche/streamer-woolly-bugger": {
+  "w": 2000,
+  "h": 1513,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAACQBACdASoYABIAPulcp02pJSOiN/VYASAdCUATplAANM0Rt5kQCS9C7yZ6NYAA/ouk0S0fEjoXMB7fy1Extq+uJGNLbXlC5bQmZluX+nxUAgW78OJvtv74oXerCgqww/h5jklUDMQAAA==",
+  "colore": "rgb(216,184,120)"
+ },
+ "canne-attrezzatura/canna-bambu": {
+  "w": 1024,
+  "h": 768,
+  "sizes": [
+   480,
+   960,
+   1024
+  ],
+  "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAACQBACdASoYABIAPu1mq04ppaQiMAgBMB2JZQC90CP5C1x4winZ3n6U/VENsaAA/sBiZVom80DdMH5fA02odl8JmmuAs1g38uTZXtLaj4uGX2NTAqnjLR25L431AguQOewAAA==",
+  "colore": "rgb(168,136,120)"
+ },
+ "canne-attrezzatura/canna-e-mulinello-su-foglie": {
+  "w": 1600,
+  "h": 1200,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAABQBACdASoYABIAPu1cq02ppKQiMBgMATAdiWMAABcYp3tVWYvPffjqQrxAAP65rrl3ayUM2fHW6g9nmuQBKsy/vctEkf0HxNIdyAcqd0RExFBFyK4S9T5KksxLvBECL1YNqUbVBXPIAA==",
+  "colore": "rgb(8,24,8)"
+ },
+ "canne-attrezzatura/canne-da-mosca": {
+  "w": 1920,
+  "h": 1080,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAACQAwCdASoYAA4APu1oqk6ppiQiMAgBMB2JZQAANe3BBKar+5oAAP7FeB/AlSDATHHcwppjN5WQZJ+88qCUKbsPYtoQEAAA",
+  "colore": "rgb(120,120,120)"
+ },
+ "canne-attrezzatura/coda-di-topo-seta": {
+  "w": 2000,
+  "h": 1304,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQBACdASoYABAAPu1iqk2ppaQiMAgBMB2JYwCsACFjcJFI2x0dpZBsgAD+7tlvvGDOEfthke616K3toKQo73SLcTFzv1t6itY23T2dV+jjaGqaFoFRGnCTL5HvWP5oGIBAAA==",
+  "colore": "rgb(8,8,8)"
+ },
+ "canne-attrezzatura/costruzione-mosca-primo-piano": {
+  "w": 2000,
+  "h": 1951,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRpoAAABXRUJQVlA4II4AAABQBQCdASoYABcAPu1ipU6ppSMiMBgMATAdiWQAv+w0NfkhjUbDlejZIYkaZyqNG6iOjtAA/vW7e5gASn1alTbI1kx/AjQhc2vwRWB47gXqlQt85/0Vl1+NUsjYHK5hA/3J2IYyLDjv/fjXVxtNO/Rga2uXm5a1QebVfraqwtjX3Q1HI5bSGUrN1OBi+AAA",
+  "colore": "rgb(24,24,24)"
+ },
+ "canne-attrezzatura/kit-principiante": {
+  "w": 2000,
+  "h": 809,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAADwAwCdASoYAAoAPu1mqk2ppaQiMAgBMB2JZwDImCHgH/Uf42NNm+oAAP7gogvHz2pfxBKsu55H9YOhHemiOmtr+n+L0nVQAAA=",
+  "colore": "rgb(248,248,248)"
+ },
+ "canne-attrezzatura/morsa-costruzione": {
+  "w": 2000,
+  "h": 2136,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAABQBACdASoYABoAPulmqE2pJiQiMBgMASAdCWUAsOwQfH1SSTKfyG4gQ+4AAP7CYOdrW6ZrFLZ5awxsaddWV8/04xt12OStDUeQMxqHH83/GnnHQWPz7ik41aynYC85luL5rsGALVljtHx+UAA=",
+  "colore": "rgb(200,184,168)"
+ },
+ "canne-attrezzatura/mulinelli-vetrina": {
+  "w": 2000,
+  "h": 1500,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAwBQCdASoYABIAPu1oqU+ppiOiKA1RMB2JYwCsMtDBf/3jpx5fuLRLMRE2FJDL6ErS4AD+6O+ifWnxAz0Eb1VKuLV+4Jtro6d+zQs7JPjrOyBvJmA7WoQF8BRAQOTy1vheRmxBbrDJaR8zMhmVbMt2RldoTDhnLdyKWCVv/RgAAA==",
+  "colore": "rgb(24,24,24)"
+ },
+ "canne-attrezzatura/mulinello-fladen": {
+  "w": 2000,
+  "h": 2070,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAABwBQCdASoYABkAPu1kqk4ppaQiMAgBMB2JaACdMw4/+CWj7HgdMaKxpH0HSS993P86xB+AAPccPCzovvjg61K+d12tkTGQ+iH1fDzsNBsM8v7tqaMrrXdAbsVc5mvDDFsyjGOYIQ0TewUXaBGwRLKjFvKKo1vhFyD37Y9hrDl0ql6iLAAAAA==",
+  "colore": "rgb(88,152,232)"
+ },
+ "canne-attrezzatura/mulinello-large-arbor": {
+  "w": 2000,
+  "h": 2230,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAACwBQCdASoYABsAPu1oqk+ppiOiMBgIATAdiWQAp02NuYAExV2+O980uU4WlWhBYKn6fUDbKmgA95+3X6EGiq0G5htSi/tQ9T/FMEI/5A3AyqtEsAiec2IAjkFLC7Dcn6ejrK1oI13GbbKakyaQWq63WHPO6pgH7UhvXvz4zkH3IE/Gv8Lr5C8R37oUOyCgau1gAA==",
+  "colore": "rgb(88,152,232)"
+ },
+ "canne-attrezzatura/scatola-mosche-sacramento": {
+  "w": 2000,
+  "h": 2666,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRpAAAABXRUJQVlA4IIQAAADwBACdASoYACAAPu1mrU8ppaQiKA1RMB2JQBOmbkjPIGxgZuKOGb3f5UhMhYKTqAAA/bKDIFbXJ3Al10+Ord3rK+45XIGoKJkKz0aO7vX/t7qmdwHG+N/2pkIEAPOp/VlV1D3X4xASlocwNrMkOYBid83Cxeb+HXBARyAlEkg3wpdyAAA=",
+  "colore": "rgb(8,8,8)"
+ },
+ "canne-attrezzatura/scatole-di-mosche": {
+  "w": 2000,
+  "h": 1500,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADQBACdASoYABIAPuVgpk2pJaOiMAwBIByJYwAASrfNgDoQiXtqfIckv9J6o/qT8AD+7Cmg77QHarlZq4a435/9LzCmBXrQ199TeglA9JoE9d8JuTJZYR83wRI/QIyldB4555JIKAA=",
+  "colore": "rgb(24,24,24)"
+ },
+ "canne-attrezzatura/vassoio-mosche-trota": {
+  "w": 2000,
+  "h": 1500,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABwBQCdASoYABIAPu1orE8ppiQiMBgIATAdiWcAyFwR9SlcdECt6oRNnIo8PTyOFJNbMvYAAP7dnmoIS4BpLG09Whd6KaGMQjCSa5AlO/POzCQIXX/1L2Shs8ZIq05AAAA=",
+  "colore": "rgb(8,8,8)"
+ },
+ "fiumi-ambientazioni/effimera-adulta": {
+  "w": 2000,
+  "h": 1825,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRnYAAABXRUJQVlA4IGoAAACwBACdASoYABYAPu1oqk+ppiOiKA1RMB2JQBdmZohTAf3Qpf3lxsflhp0HGPPwAOvRJq32eU1idn/+j/FdOKeKUe1dJx2JlDooKAvK/LeoaEFNnUiZBAygFA18NZgwk5Eu4gimmFz7wAAA",
+  "colore": "rgb(120,184,56)"
+ },
+ "fiumi-ambientazioni/nebbia-mattino": {
+  "w": 2000,
+  "h": 1333,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAACwAwCdASoYABAAPu1yrU+pp6QiMAgBMB2JZwAAW7UNtOT5TbFDQAD+yIeECHTfFil6BqsKxVCbfpMUGBjRG4g0ZFnaJu7IUAAAAA==",
+  "colore": "rgb(232,232,232)"
+ },
+ "fiumi-ambientazioni/pescatore-ain": {
+  "w": 2000,
+  "h": 1500,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAAAQBACdASoYABIAPu1wsFKppiSiqAgBMB2JQBXDgT38fvKPX6/ZiAj4AAD5sWFdM4cTzM4oLvPX/rsYtPDlFU6MuclxfMDMAZn/ugepsTS0corUmm/KS9PfMpPzDoRYiQIAAA==",
+  "colore": "rgb(72,88,56)"
+ },
+ "fiumi-ambientazioni/pescatore-madison": {
+  "w": 2000,
+  "h": 1333,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAABwAwCdASoYABAALrV2u12jqampiYC0SxgABcFQTqG5a3uDYAAA/tT+9ki0sgzYl59CCQOWR0uKJdWeHtoS/5LyMzCNyHj0h++wRB4ym094mgmsAAA=",
+  "colore": "rgb(184,184,200)"
+ },
+ "fiumi-ambientazioni/pescatore-savinja": {
+  "w": 2000,
+  "h": 1500,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRm4AAABXRUJQVlA4IGIAAACQBACdASoYABIAPu1kqE2ppaOiMBgMATAdiWcAv+wPmH1OBL2SgQwNwtqyolgA/tlSvARIUFMKsvqy0RugLzWh0nsKioCDOmSUZQdDDE6eWk6V3D/HAZV97pFN/MGxk1wAAA==",
+  "colore": "rgb(152,152,136)"
+ },
+ "fiumi-ambientazioni/pescatore-seedskadee": {
+  "w": 2000,
+  "h": 1328,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAADwAwCdASoYABAAPu1mqk2ppaQiMAgBMB2JQBOmUGVsiTG2GmT88XGQAP6vGB8gros3FPPnBK2K/WqbS+Ae3xtxPw7jm5dygZYWL1AAAAA=",
+  "colore": "rgb(152,184,216)"
+ },
+ "fiumi-ambientazioni/pescatore-soca": {
+  "w": 2000,
+  "h": 1330,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAAAQBACdASoYABAAPu1kqk2ppaQiMAgBMB2JagCdABtkMRHtiFOIHK2eAAD3Hwyf4VOSMgaAUeDyqXB3Y+PjBwkdLNMklf07IX8uZf/7CNtyDeukNsTVkAaRghnCAAAA",
+  "colore": "rgb(120,168,232)"
+ },
+ "fiumi-ambientazioni/soca-kobarid": {
+  "w": 2000,
+  "h": 1500,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAABwBACdASoYABIAPu1oq08ppiOiMBgIATAdiWMAvkgQ70aIjl5E6jdEsvusAAD+6rdgIjxMFTRxqp13KNWumvuFMNArww6timKTB78/g9LRiiEq6Hq5TGHmWfwT4ZvAAAA=",
+  "colore": "rgb(232,232,248)"
+ },
+ "fiumi-ambientazioni/soca-slovenia": {
+  "w": 1920,
+  "h": 2560,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAABQBQCdASoYACAAPu1sr1EppaQiqAqpMB2JZQC+SBBKYs1GjLlsvRRvNYZN3Ayxgxh+RAAA/ulDNb+ZcQA52AJf4YjF9lAiKhevpRuNcEOPV2ysNmfZTReqhDQ0X+uvpNRICodbFANixhvrAP4s+GZxHOrmWEm3+g8eNxwAAAA=",
+  "colore": "rgb(248,248,248)"
+ },
+ "fiumi-ambientazioni/torrente-alpino-nz": {
+  "w": 2000,
+  "h": 1189,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAABQAgCdASoYAA4AA4BaJYgC7ACRHW11phZG1gAA/h+RA/d7m2W7dXWlPYugqe8ImWt94+PUdbD/SJbTBiNJyVIyZBFBWmdRZluHeyNUAAA=",
+  "colore": "rgb(8,8,8)"
+ },
+ "fiumi-ambientazioni/torrente-bosco-oirase": {
+  "w": 2000,
+  "h": 1333,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAACwAwCdASoYABAAPu1iqk2ppaQiMAgBMB2JYgCdABIXKNTkVD17yAD+Zl+A6EOTt2l9OI0qeUDjtRdrw2y+UfrIprGlGmJkIDYGXBnx1WRzcu29wCAAAA==",
+  "colore": "rgb(8,24,8)"
+ },
+ "fiumi-ambientazioni/torrente-graubuenden": {
+  "w": 2000,
+  "h": 1125,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoYAA0APu1iqU2ppaOiMAgBMB2JZgAAQl7yvwXi/e9sAL4AAP4UmA8+ts7f3moq25zWtP/VGhnCWN9v8E3V5x5zAW124u2niAcYQkTBAAA=",
+  "colore": "rgb(104,120,40)"
+ },
+ "fiumi-ambientazioni/torrente-oberstdorf": {
+  "w": 2000,
+  "h": 1500,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRnAAAABXRUJQVlA4IGQAAABwBQCdASoYABIAPu1mq0+ppSOiMBgIATAdiWcAy2gRY91WkQFZVQT4MA9xRXG2b1MxJ8SAAP4nQ2TmhByZ06lYsmuXJpqhtB4q8r2JHyoPBZFu60qOCunDc+aBIy7vleJc/bAA",
+  "colore": "rgb(248,248,248)"
+ },
+ "fiumi-ambientazioni/torrente-sudtirolo": {
+  "w": 2000,
+  "h": 1500,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRnoAAABXRUJQVlA4IG4AAACQBQCdASoYABIAPu1eqU4ppKOiMBgMATAdiWcAx+QRdnHnDn/SxcUimL8JbAVubLbTvdokAAD+3Effu0cwbd/wEy8mvMzKd2qssA+iasWJW1t4RNfzxSLEuLwATcVGs8TwwgVCJpU7hNAw5jZgAA==",
+  "colore": "rgb(216,216,216)"
+ },
+ "fiumi-ambientazioni/trota-fario-leon": {
+  "w": 2000,
+  "h": 1125,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRloAAABXRUJQVlA4IE4AAACQAwCdASoYAA0APu1iqk2ppaQiMAgBMB2JQAAK/yCgVFKRl7pkAP0f/lVr9CHgcM26SI4E636w7uFou0bBxbKc2Gpe982jtynboeyAAAA=",
+  "colore": "rgb(8,8,8)"
+ },
+ "fiumi-ambientazioni/trota-fario-sott-acqua": {
+  "w": 2000,
+  "h": 1335,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAACwAwCdASoYABAAPu1iqU2ppaOiMAgBMB2JQBWAA9BRRdDHLZVtAAD56Df0Nd/0+GJrX8ctQCm2KRmCqtQAAA==",
+  "colore": "rgb(88,88,72)"
+ },
+ "fiumi-ambientazioni/trota-fario-vetro": {
+  "w": 2000,
+  "h": 1197,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACQAwCdASoYAA4APu1kqU2ppaQiMAgBMB2JQBhQBDs0YBdRcXAWAP5SxjcpM9eQw3aYZPDDolu/aurWFVPvC+7KWXCQAXKAAAA=",
+  "colore": "rgb(168,184,168)"
+ },
+ "fiumi-ambientazioni/trota-presa-a-mosca": {
+  "w": 2000,
+  "h": 1500,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADQBACdASoYABIAPulep02pJSOiN/VYASAdCWUAnQAQNFn6hNC0lTjFW/7XevLoAADxtpyysibFvUX47MfKK7yaMdiQviiQm+JUo61NHS/RdVJCBRKHrnhq0cSawoAA",
+  "colore": "rgb(136,152,168)"
+ },
+ "fiumi-ambientazioni/val-ferret": {
+  "w": 2000,
+  "h": 1335,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQBACdASoYABAAPu1mqk2ppaQiMAgBMB2JYwDE2CHeh+bJ0+HDT05FAAD+5ygDL4JSWzwT8HcwlBUowLzumlf0fm7ZYwNSqfRhbBaACgAAAA==",
+  "colore": "rgb(232,232,232)"
+ },
+ "render/matuka-fario": {
+  "w": 1656,
+  "h": 1656,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAwCdASoYABgAPu1qqFAtJiiiqA1RoB2JZwDG9Baf+sAA/u8O+bfUgRTze2LP2/0MCOZkVe3C100LzwAAAA==",
+  "colore": "rgb(24,40,24)"
+ },
+ "render/perdigon-fario": {
+  "w": 1656,
+  "h": 1656,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAwCdASoYABgAPu1sq1GppaOiqAqpMB2JZwAAQXFrNXAA/u83ck+/cjvTemWUHfPHGD83125pS11C3IFwAAAA",
+  "colore": "rgb(24,40,24)"
+ },
+ "render/poster-alba": {
+  "w": 1920,
+  "h": 1080,
+  "sizes": [
+   480,
+   960,
+   1600
+  ],
+  "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoYAA4APu1iqU2ppaOiMAgBMB2JYwCdMoACarEQwl8HfBvAAP7p9ZS+LR2Egy1iq2/mTK0vKwAP0YBu8aWUnumY3SVwW4l9mof5rCvCYAA=",
+  "colore": "rgb(72,56,40)"
+ }
+}

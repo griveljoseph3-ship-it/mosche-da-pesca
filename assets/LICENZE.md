@@ -120,3 +120,30 @@ Licenza: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), vedi htt
 | File | Autore | Licenza |
 |---|---|---|
 | `assets/3d/modelli/mosca-secca-stilizzata/mosca-secca.glb` | Creato con codice per questo repository | CC0 1.0 |
+
+## Creato per il sito (CC0 1.0)
+
+Tutto quello che segue è stato creato con codice per questo progetto e si può riusare liberamente ([CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)).
+
+| Cosa | Dove |
+|---|---|
+| Shader dell'acqua (corrente, riflessi, schiuma, cerchi, finestra di Snell), cielo e montagne, nebbia, raggi di luce, caustiche, particelle | `src/tre/*.jsx`, `src/tre/glsl.js` |
+| Abeti, trota fario, ninfe e streamer 3D (geometrie procedurali) | `src/tre/Alberi.jsx`, `src/tre/Trota.jsx`, `src/tre/MoscaProcedurale.jsx` |
+| Varianti di colore della mosca 3D (da `mosca-secca.glb`) | `src/tre/MoscaGLB.jsx` |
+| Render della scena: `poster-alba.png`, `perdigon-fario.png`, `matuka-fario.png` | `assets/foto/render/` (creati con `strumenti/render.cjs`) |
+| Immagine per le anteprime social | `public/og.jpg` (dal render `poster-alba.png`) |
+| Suono del torrente (sintetizzato nel browser con Web Audio, nessun file audio) | `src/lib/suono.js` |
+| Logo, icone e favicon SVG | `src/componenti/Icone.jsx`, `public/favicon.svg` |
+
+## Caratteri (SIL Open Font License 1.1)
+
+| Carattere | Autore | Fonte |
+|---|---|---|
+| Cormorant Garamond (titoli) | Christian Thalmann, Catharsis Fonts | https://github.com/CatharsisFonts/Cormorant |
+| Inter (testi) | Rasmus Andersson | https://github.com/rsms/inter |
+
+Serviti dal sito stesso tramite i pacchetti `@fontsource`.
+
+## Versioni per il web
+
+Le foto in `public/img/` sono copie ridimensionate (480, 960, 1600 px) e convertite in WebP e AVIF dagli originali in `assets/foto/`, con la stessa licenza dell'originale (le CC BY-SA restano CC BY-SA). I modelli in `public/3d/modelli/` sono gli stessi glTF Poly Haven compressi con Draco e texture WebP; gli HDRI in `public/3d/hdri/` sono ridotti a 1k e 512 px. Tutto si rigenera con `npm run assets`.

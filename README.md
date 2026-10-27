@@ -1,28 +1,44 @@
-# Mosche da pesca
-
-Qui c'è tutto quello che serve a Claude per costruire il sito del negozio di mosche da pesca.
+# Riale · Mosche da pesca (sito demo)
 
 **Il sito online:** https://griveljoseph3-ship-it.github.io/mosche-da-pesca/
-(adesso c'è una pagina "In costruzione"; quando Claude finisce, allo stesso link c'è il sito vero)
 
-## Come si usa
-
-1. Apri il file `PROMPT-PER-CLAUDE.md`.
-2. Copia tutto il testo e incollalo a Claude.
-3. Claude costruisce il sito e alla fine ti scrive il link.
+Negozio dimostrativo di mosche da pesca artigianali. **I prodotti e i prezzi sono di esempio e non si paga davvero.**
 
 ## Cosa c'è dentro
 
-- `PROMPT-PER-CLAUDE.md`: le istruzioni complete da dare a Claude.
-- `assets/foto/mosche/`: foto di mosche da pesca (secche, ninfe, streamer, sommerse).
-- `assets/foto/canne-attrezzatura/`: canne, mulinelli, scatole di mosche, costruzione delle mosche.
-- `assets/foto/fiumi-ambientazioni/`: torrenti di montagna, nebbia, pescatori, trote.
-- `assets/3d/`: luci e cieli per il 3D (alba e tramonto), superfici di sassi, muschio e corteccia, modelli 3D di sassi e piante, e una mosca 3D.
-- `assets/LICENZE.md`: da dove viene ogni foto e chi l'ha fatta. Sono tutte gratis e con licenza libera, ma alcune chiedono di scrivere il nome dell'autore: per questo il sito avrà una pagina "Crediti".
-- `anteprima/`: la pagina "In costruzione" di adesso.
-- `strumenti/pages.yml`: serve a Claude per mettere online il sito in automatico.
+- **Home "Il fiume"**: una scena 3D (React Three Fiber) di un torrente all'alba. Scorrendo, la telecamera segue la corrente e scende sotto l'acqua: mosche secche in superficie, sommerse a mezz'acqua, ninfe sul fondo, streamer nella corrente profonda con una trota che passa. La luce va dall'alba al tramonto.
+- **Negozio** con filtri (tipo, misura dell'amo, stagione, pesce, acqua), **schede prodotto** con vista 3D della mosca da ruotare e ingrandire e foto macro con effetto di profondità.
+- **Calendario delle schiuse**, **Kit e regali** (scatola che si apre), **La nostra storia**, **Contatti** (modulo finto), **Crediti**, **Spedizioni e resi**, **Privacy**.
+- **Carrello** salvato nel browser e **cassa simulata** in 3 passaggi, fino a "Ordine demo ricevuto".
+
+## Comandi
+
+```bash
+npm install
+npm run dev      # sviluppo su http://localhost:5173/mosche-da-pesca/
+npm run build    # sito in dist/ (con pagine pre-generate, sitemap, robots, 404)
+npm run assets   # rigenera foto WebP/AVIF, GLB Draco, texture e HDRI da assets/
+```
+
+`npm run assets` serve solo se cambiano i file in `assets/`: i file per il web sono già in `public/`.
+
+## Pubblicazione
+
+Ogni push su `main` avvia `.github/workflows/pages.yml`, che fa la build e pubblica `dist/` su GitHub Pages.
+
+## Struttura
+
+- `src/pagine/` le pagine, `src/componenti/` i pezzi dell'interfaccia, `src/tre/` la scena 3D e il visore delle mosche.
+- `src/i18n/it.js` tutti i testi dell'interfaccia; `src/data/catalogo.it.js` i testi dei prodotti. Per l'inglese basta aggiungere `en.js` e `catalogo.en.js`.
+- `src/data/catalogo.js` prodotti, prezzi e filtri; `src/data/schiuse.js` il calendario degli insetti.
+- `assets/` gli originali (foto, modelli, HDRI) e `assets/LICENZE.md` con autori e licenze.
+
+## Prestazioni e accessibilità
+
+- Il 3D si carica solo dopo la pagina; su telefoni e computer lenti la scena è più leggera; senza GPU, o con "riduci movimento", al posto del 3D ci sono le foto.
+- Testo alternativo per le immagini, uso da tastiera, contrasto adeguato.
 
 ## Importante
 
 - È un sito **demo**: prodotti e prezzi sono inventati e non si paga davvero.
-- Non mettere mai password o chiavi segrete in questo progetto: è pubblico, lo può vedere chiunque.
+- Non mettere mai password o chiavi segrete in questo progetto: è pubblico.

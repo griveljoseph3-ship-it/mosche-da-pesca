@@ -1,0 +1,78 @@
+// Calendario delle schiuse (torrenti alpini 500–1500 m, indicativo).
+// mesi: intensità 0–3 da gennaio a dicembre. mosche: slug del catalogo.
+export const insetti = [
+  {
+    id: 'chironomidi',
+    gruppo: 'Chironomidi',
+    nome: 'Moscerini (chironomidi)',
+    colore: '#9aa6a0',
+    nota: 'Piccolissimi e sempre presenti. Nei mesi freddi sono spesso l’unica schiusa del giorno.',
+    mesi: [3, 3, 2, 1, 1, 1, 1, 1, 1, 2, 3, 3],
+    mosche: ['perdigon-fario', 'sparkle-dun-olive', 'black-wulff'],
+  },
+  {
+    id: 'baetis',
+    gruppo: 'Effimere',
+    nome: 'Baetis (olive scure)',
+    colore: '#c2b36a',
+    nota: 'Piccole effimere olivastre, nascono nelle giornate grigie di primavera e autunno.',
+    mesi: [0, 1, 3, 3, 2, 1, 0, 1, 2, 3, 2, 0],
+    mosche: ['sparkle-dun-olive', 'adams-classica', 'klinkhammer-special', 'starna-e-fagiano'],
+  },
+  {
+    id: 'march-brown',
+    gruppo: 'Effimere',
+    nome: 'Ecdyonurus (march brown)',
+    colore: '#b88a4a',
+    nota: 'Le prime grandi schiuse della stagione, verso mezzogiorno.',
+    mesi: [0, 1, 3, 3, 1, 0, 0, 0, 0, 0, 0, 0],
+    mosche: ['march-brown', 'adams-classica', 'soft-hackle-olive'],
+  },
+  {
+    id: 'danica',
+    gruppo: 'Effimere',
+    nome: 'Ephemera danica (mayfly)',
+    colore: '#e2d29a',
+    nota: 'La grande effimera di maggio e giugno: le trote più diffidenti salgono in superficie.',
+    mesi: [0, 0, 0, 0, 3, 3, 1, 0, 0, 0, 0, 0],
+    mosche: ['adams-wulff', 'royal-wulff', 'klinkhammer-special'],
+  },
+  {
+    id: 'tricotteri',
+    gruppo: 'Tricotteri',
+    nome: 'Tricotteri (sedge)',
+    colore: '#a87b52',
+    nota: 'Le sere d’estate, sull’acqua, saltano e pattinano. Le trote li inseguono.',
+    mesi: [0, 0, 0, 1, 2, 3, 3, 3, 2, 1, 0, 0],
+    mosche: ['elk-hair-caddis', 'soft-hackle-olive', 'orecchio-di-lepre'],
+  },
+  {
+    id: 'perle',
+    gruppo: 'Plecotteri',
+    nome: 'Perlidi (grandi plecotteri)',
+    colore: '#6e7a52',
+    nota: 'Grandi ninfe scure che vivono sotto i sassi più grossi. Gli adulti escono a riva.',
+    mesi: [1, 1, 1, 2, 3, 3, 2, 1, 1, 1, 1, 1],
+    mosche: ['montana-stone', 'perlide-nera', 'stimulator'],
+  },
+  {
+    id: 'isoperla',
+    gruppo: 'Plecotteri',
+    nome: 'Isoperla (yellow sally)',
+    colore: '#d9b84a',
+    nota: 'Piccoli plecotteri gialli, nei pomeriggi caldi di inizio estate.',
+    mesi: [0, 0, 0, 0, 2, 3, 3, 1, 0, 0, 0, 0],
+    mosche: ['stimulator', 'elk-hair-caddis', 'prince-testa-oro'],
+  },
+  {
+    id: 'pesciolini',
+    gruppo: 'Pesce foraggio',
+    nome: 'Avannotti e scazzoni',
+    colore: '#7f9aa3',
+    nota: 'Non è una schiusa, ma in autunno le grandi fario cacciano i pesciolini.',
+    mesi: [1, 1, 2, 1, 1, 1, 1, 1, 2, 3, 2, 1],
+    mosche: ['muddler-minnow', 'woolly-bugger', 'matuka-fario', 'white-minnow'],
+  },
+];
+
+export const gruppi = ['Effimere', 'Tricotteri', 'Plecotteri', 'Chironomidi', 'Pesce foraggio'];
