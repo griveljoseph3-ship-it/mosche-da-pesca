@@ -1,0 +1,831 @@
+{
+ "foto": [
+  {
+   "file": "assets/foto/mosche/secca-adams-wulff.jpg",
+   "cartella": "mosche",
+   "nome": "secca-adams-wulff",
+   "descrizione_originale": "Adams Wulff Dry Fly from the Lee Wulff series of hair wing flies",
+   "larghezza": 2000,
+   "licenza": "CC BY-SA 4.0",
+   "autore": "Mike Cline",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Adams_Wulff_Dry_Fly_01.jpg",
+   "altezza": 1516
+  },
+  {
+   "file": "assets/foto/mosche/secca-adams.jpg",
+   "cartella": "mosche",
+   "nome": "secca-adams",
+   "descrizione_originale": "It is one of the more versatile flies because it is affective on both the west and east coasts. It is usually a size-18 ",
+   "larghezza": 2000,
+   "licenza": "Public domain",
+   "autore": "Mike Cline",
+   "fonte": "https://commons.wikimedia.org/wiki/File:AdamsDryFly.jpg",
+   "altezza": 1866
+  },
+  {
+   "file": "assets/foto/mosche/secca-adams-n12.jpg",
+   "cartella": "mosche",
+   "nome": "secca-adams-n12",
+   "descrizione_originale": "Mosca Seca Adams numero 12",
+   "larghezza": 2000,
+   "licenza": "CC BY-SA 3.0",
+   "autore": "Drcooling",
+   "fonte": "https://commons.wikimedia.org/wiki/File:MoscaAdams.jpg",
+   "altezza": 1333
+  },
+  {
+   "file": "assets/foto/mosche/secca-elk-hair-caddis.jpg",
+   "cartella": "mosche",
+   "nome": "secca-elk-hair-caddis",
+   "descrizione_originale": "Elk Hair Caddis dry fly",
+   "larghezza": 2000,
+   "licenza": "CC BY-SA 3.0",
+   "autore": "Mike Cline",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Elk_Hair_Caddis.JPG",
+   "altezza": 1500
+  },
+  {
+   "file": "assets/foto/mosche/secca-klinkhammer.jpg",
+   "cartella": "mosche",
+   "nome": "secca-klinkhammer",
+   "descrizione_originale": "Klinkhammer Special Dry Fly - Replica of Original tie by Hans van Klinken",
+   "larghezza": 2000,
+   "licenza": "CC BY-SA 4.0",
+   "autore": "Mike Cline",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Klinkhammer_Special_Dry_Fly.jpg",
+   "altezza": 1500
+  },
+  {
+   "file": "assets/foto/mosche/secca-royal-wulff.jpg",
+   "cartella": "mosche",
+   "nome": "secca-royal-wulff",
+   "descrizione_originale": "Royal Wulff Dry Fly from Lee Wulff series of hair wing flies",
+   "larghezza": 1876,
+   "licenza": "CC BY-SA 4.0",
+   "autore": "Mike Cline",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Royal_Wulff_Dry_Fly_01.jpg",
+   "altezza": 1751
+  },
+  {
+   "file": "assets/foto/mosche/secca-stimulator.jpg",
+   "cartella": "mosche",
+   "nome": "secca-stimulator",
+   "descrizione_originale": "Traditional stimulator dry fly",
+   "larghezza": 2000,
+   "licenza": "CC BY-SA 4.0",
+   "autore": "Mike Cline",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Stimulator_dry_fly.jpg",
+   "altezza": 1500
+  },
+  {
+   "file": "assets/foto/mosche/secca-black-wulff.jpg",
+   "cartella": "mosche",
+   "nome": "secca-black-wulff",
+   "descrizione_originale": "Black Wulff dry fly",
+   "larghezza": 1200,
+   "licenza": "CC0",
+   "autore": "DeliciousDunder",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Black_Wulff_dry_fly.jpg",
+   "altezza": 973
+  },
+  {
+   "file": "assets/foto/mosche/secca-royal-humpy.jpg",
+   "cartella": "mosche",
+   "nome": "secca-royal-humpy",
+   "descrizione_originale": "Royal Humpy Dry Fly",
+   "larghezza": 2000,
+   "licenza": "Public domain",
+   "autore": "Mike Cline",
+   "fonte": "https://commons.wikimedia.org/wiki/File:RoyalHumpy.JPG",
+   "altezza": 1500
+  },
+  {
+   "file": "assets/foto/mosche/secca-sparkle-dun.jpg",
+   "cartella": "mosche",
+   "nome": "secca-sparkle-dun",
+   "descrizione_originale": "BWO Olive Sparkle Dun",
+   "larghezza": 1915,
+   "licenza": "CC BY-SA 4.0",
+   "autore": "Mike Cline",
+   "fonte": "https://commons.wikimedia.org/wiki/File:BWO_Olive_Sparkle_Dun.jpg",
+   "altezza": 1662
+  },
+  {
+   "file": "assets/foto/mosche/secca-light-cahill.jpg",
+   "cartella": "mosche",
+   "nome": "secca-light-cahill",
+   "descrizione_originale": "Light Cahill Dry flies",
+   "larghezza": 2000,
+   "licenza": "CC BY-SA 2.0",
+   "autore": "Freyfisher",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Light_Cahill_dry_flies.jpg",
+   "altezza": 1494
+  },
+  {
+   "file": "assets/foto/mosche/secche-su-piume.jpg",
+   "cartella": "mosche",
+   "nome": "secche-su-piume",
+   "descrizione_originale": "Dry flies for salmonid fishing lying on feather material.  From left to right are the March Brown, B",
+   "larghezza": 2000,
+   "licenza": "CC BY-SA 4.0",
+   "autore": "Ermell",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Trockenfliegen_Fliegenfischen-20071202-RM-154224.jpg",
+   "altezza": 1509
+  },
+  {
+   "file": "assets/foto/mosche/ninfa-prince-testa-oro.jpg",
+   "cartella": "mosche",
+   "nome": "ninfa-prince-testa-oro",
+   "descrizione_originale": "An artificial fly",
+   "larghezza": 1884,
+   "licenza": "CC BY-SA 4.0",
+   "autore": "G. Moore",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Bead_Head_Prince_Nymph.jpg",
+   "altezza": 1224
+  },
+  {
+   "file": "assets/foto/mosche/ninfa-orecchio-di-lepre.jpg",
+   "cartella": "mosche",
+   "nome": "ninfa-orecchio-di-lepre",
+   "descrizione_originale": "Mosca Oreja de Liebre, Ninfa",
+   "larghezza": 2000,
+   "licenza": "CC BY-SA 3.0",
+   "autore": "Drcooling",
+   "fonte": "https://commons.wikimedia.org/wiki/File:MoscaOrejaDeLiebre.jpg",
+   "altezza": 1333
+  },
+  {
+   "file": "assets/foto/mosche/ninfa-montana-stone.jpg",
+   "cartella": "mosche",
+   "nome": "ninfa-montana-stone",
+   "descrizione_originale": "Brooks Montana Stonefly Nymph",
+   "larghezza": 2000,
+   "licenza": "Public domain",
+   "autore": "Mike Cline",
+   "fonte": "https://commons.wikimedia.org/wiki/File:BrooksMontanaStone.jpg",
+   "altezza": 1438
+  },
+  {
+   "file": "assets/foto/mosche/ninfa-perlide-nera.jpg",
+   "cartella": "mosche",
+   "nome": "ninfa-perlide-nera",
+   "descrizione_originale": "Matt Minch Black Stonefly Nymph",
+   "larghezza": 2000,
+   "licenza": "CC BY-SA 4.0",
+   "autore": "Mike Cline",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Matt_Minch_Black_Stonefly_Nymph.jpg",
+   "altezza": 1532
+  },
+  {
+   "file": "assets/foto/mosche/ninfa-march-brown.jpg",
+   "cartella": "mosche",
+   "nome": "ninfa-march-brown",
+   "descrizione_originale": "Nymfa Březnovky - modifikace (March Brown nymf)",
+   "larghezza": 2000,
+   "licenza": "CC BY 3.0",
+   "autore": "Jan Doné - sportovní rybář",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Nymfa_B%C5%99eznovky_IMG_1092.JPG",
+   "altezza": 1500
+  },
+  {
+   "file": "assets/foto/mosche/ninfa-soft-hackle.jpg",
+   "cartella": "mosche",
+   "nome": "ninfa-soft-hackle",
+   "descrizione_originale": "Traditional soft hackle nymph with olive quill body",
+   "larghezza": 2000,
+   "licenza": "CC BY-SA 4.0",
+   "autore": "Mike Cline",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Olive_quill_soft_hackle_nymph.jpg",
+   "altezza": 1500
+  },
+  {
+   "file": "assets/foto/mosche/streamer-clouser.jpg",
+   "cartella": "mosche",
+   "nome": "streamer-clouser",
+   "descrizione_originale": "Traditional Chartreuse Clouser Deep Minnow",
+   "larghezza": 2000,
+   "licenza": "CC BY-SA 4.0",
+   "autore": "Mike Cline",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Traditional_Chartreuse_Clouser_Deep_Minnow.jpg",
+   "altezza": 1045
+  },
+  {
+   "file": "assets/foto/mosche/streamer-woolly-bugger.jpg",
+   "cartella": "mosche",
+   "nome": "streamer-woolly-bugger",
+   "descrizione_originale": "Black and Brown Beadhead Woolly Bugger",
+   "larghezza": 2000,
+   "licenza": "Public domain",
+   "autore": "Mike Cline",
+   "fonte": "https://commons.wikimedia.org/wiki/File:BlackandBrownBeadheadWoollyBugger.jpg",
+   "altezza": 1513
+  },
+  {
+   "file": "assets/foto/mosche/streamer-muddler.jpg",
+   "cartella": "mosche",
+   "nome": "streamer-muddler",
+   "descrizione_originale": "A Muddler Minnow fishing fly tied by Don Gapen, the originator of the pattern, and shot in the Catsk",
+   "larghezza": 1920,
+   "licenza": "CC BY-SA 3.0",
+   "autore": "Martin Joergensen",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Original_Don_Gapen_Muddler_Minnow.jpg",
+   "altezza": 1275
+  },
+  {
+   "file": "assets/foto/mosche/streamer-mickey-finn.jpg",
+   "cartella": "mosche",
+   "nome": "streamer-mickey-finn",
+   "descrizione_originale": "Mickey Finn (1936) John Alden Knight",
+   "larghezza": 2000,
+   "licenza": "CC BY-SA 4.0",
+   "autore": "Mike Cline",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Mickey_Finn_(1936)_01.jpg",
+   "altezza": 1345
+  },
+  {
+   "file": "assets/foto/mosche/streamer-white-minnow.jpg",
+   "cartella": "mosche",
+   "nome": "streamer-white-minnow",
+   "descrizione_originale": "Schenk's White Minnow streamer",
+   "larghezza": 2000,
+   "licenza": "Public domain",
+   "autore": "Mike Cline",
+   "fonte": "https://commons.wikimedia.org/wiki/File:SchenksWhiteMinnow1.jpg",
+   "altezza": 1187
+  },
+  {
+   "file": "assets/foto/mosche/sommersa-royal-coachman.jpg",
+   "cartella": "mosche",
+   "nome": "sommersa-royal-coachman",
+   "descrizione_originale": "Royal Coachman wet fly",
+   "larghezza": 2000,
+   "licenza": "CC0",
+   "autore": "DeliciousDunder",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Royal_Coachman.jpg",
+   "altezza": 1651
+  },
+  {
+   "file": "assets/foto/mosche/sommersa-starna-fagiano.jpg",
+   "cartella": "mosche",
+   "nome": "sommersa-starna-fagiano",
+   "descrizione_originale": "Partridge and Pheasant soft-hackle fly. Body of Pheasant tail fibers",
+   "larghezza": 1869,
+   "licenza": "CC0",
+   "autore": "Mike Cline",
+   "fonte": "https://commons.wikimedia.org/wiki/File:PartridgeAndPheasantTail.jpg",
+   "altezza": 1426
+  },
+  {
+   "file": "assets/foto/mosche/sommersa-grizzly-king.jpg",
+   "cartella": "mosche",
+   "nome": "sommersa-grizzly-king",
+   "descrizione_originale": "Grizzly King Wet Fly",
+   "larghezza": 2000,
+   "licenza": "Public domain",
+   "autore": "Mike Cline",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Grizzly_King_Wet_Fly.jpg",
+   "altezza": 1500
+  },
+  {
+   "file": "assets/foto/mosche/sommersa-alexandra.jpg",
+   "cartella": "mosche",
+   "nome": "sommersa-alexandra",
+   "descrizione_originale": "Alexandra wet fly",
+   "larghezza": 2000,
+   "licenza": "CC BY-SA 4.0",
+   "autore": "Mike Cline",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Alexandra_Wet_Fly.jpg",
+   "altezza": 1500
+  },
+  {
+   "file": "assets/foto/mosche/salmone-green-highlander.jpg",
+   "cartella": "mosche",
+   "nome": "salmone-green-highlander",
+   "descrizione_originale": "Green Highlander salmon fly.  The hook length in this example is 4.5cm.",
+   "larghezza": 2000,
+   "licenza": "CC BY-SA 3.0",
+   "autore": "MichaelMaggs",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Green_Highlander_salmon_fly.jpg",
+   "altezza": 1333
+  },
+  {
+   "file": "assets/foto/mosche/salmone-su-piume.jpg",
+   "cartella": "mosche",
+   "nome": "salmone-su-piume",
+   "descrizione_originale": "Salmon flies on feather material. The lowest is the pattern Ally's Shrimp, the others are shrimp pat",
+   "larghezza": 2000,
+   "licenza": "CC BY-SA 4.0",
+   "autore": "Ermell",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Lachsfliegen_mit_Federn-20071204-RM-113502.jpg",
+   "altezza": 1500
+  },
+  {
+   "file": "assets/foto/canne-attrezzatura/scatole-di-mosche.jpg",
+   "cartella": "canne-attrezzatura",
+   "nome": "scatole-di-mosche",
+   "descrizione_originale": "Assortment of fly boxes with trout, warmwater and saltwater flies",
+   "larghezza": 2000,
+   "licenza": "Public domain",
+   "autore": "Mike Cline",
+   "fonte": "https://commons.wikimedia.org/wiki/File:AssortedFlyBoxes.jpg",
+   "altezza": 1500
+  },
+  {
+   "file": "assets/foto/canne-attrezzatura/scatola-mosche-sacramento.jpg",
+   "cartella": "canne-attrezzatura",
+   "nome": "scatola-mosche-sacramento",
+   "descrizione_originale": "A box of fly fishing flies tied by Joe Kimsey and Bob Grace, owners (at different times) of the Ted ",
+   "larghezza": 2000,
+   "licenza": "CC BY-SA 4.0",
+   "autore": "Sonovawolf",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Upper_Sacramento_fly_box.jpg",
+   "altezza": 2666
+  },
+  {
+   "file": "assets/foto/canne-attrezzatura/vassoio-mosche-trota.jpg",
+   "cartella": "canne-attrezzatura",
+   "nome": "vassoio-mosche-trota",
+   "descrizione_originale": "Tray of Custom Trout Flies by Parks' Fly Shop, Gardiner, Montana",
+   "larghezza": 2000,
+   "licenza": "Public domain",
+   "autore": "Mike Cline",
+   "fonte": "https://commons.wikimedia.org/wiki/File:CustomTroutFlies-ParksFlyShop.jpg",
+   "altezza": 1500
+  },
+  {
+   "file": "assets/foto/canne-attrezzatura/canne-da-mosca.jpg",
+   "cartella": "canne-attrezzatura",
+   "nome": "canne-da-mosca",
+   "descrizione_originale": "7 fly fishing rods sitting together. A variety of brands including Redington, Sage, G-Loomis and oth",
+   "larghezza": 1920,
+   "licenza": "CC BY 3.0",
+   "autore": "Waldemarpaetz Troutster.com",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Fly_fishing_rods.JPG",
+   "altezza": 1080
+  },
+  {
+   "file": "assets/foto/canne-attrezzatura/mulinello-fladen.jpg",
+   "cartella": "canne-attrezzatura",
+   "nome": "mulinello-fladen",
+   "descrizione_originale": "Fladen Fishing Fly 6 fly fishing reel by Fladen Fishing AB, Sweden. Early 2000s. Ca 9.5*8.5*5.5 cm a",
+   "larghezza": 2000,
+   "licenza": "CC BY 4.0",
+   "autore": "R. Henrik Nilsson",
+   "fonte": "https://commons.wikimedia.org/wiki/File:2000s_Fladen_Fishing_Fly_6_fly_fishing_reel_by_Fladen_Fishing_AB_Sweden.jpg",
+   "altezza": 2070
+  },
+  {
+   "file": "assets/foto/canne-attrezzatura/mulinello-large-arbor.jpg",
+   "cartella": "canne-attrezzatura",
+   "nome": "mulinello-large-arbor",
+   "descrizione_originale": "DragonFly Large Arbor 70 fly fishing reel by British Fly Reels (BRF). Early 2000s. Ca 9.5*8*6.5 cm and 168 gr including ",
+   "larghezza": 2000,
+   "licenza": "CC BY 4.0",
+   "autore": "R. Henrik Nilsson",
+   "fonte": "https://commons.wikimedia.org/wiki/File:2000s_British_Fly_Reels_BFR_DragonFly_Large_Arbor_70_fly_fishing_reel.jpg",
+   "altezza": 2230
+  },
+  {
+   "file": "assets/foto/canne-attrezzatura/mulinelli-vetrina.jpg",
+   "cartella": "canne-attrezzatura",
+   "nome": "mulinelli-vetrina",
+   "descrizione_originale": "Fly Reels In A Case At A National Fly Fishing Show",
+   "larghezza": 2000,
+   "licenza": "Public domain",
+   "autore": "Mike Cline",
+   "fonte": "https://commons.wikimedia.org/wiki/File:FlyReelsAtAFlyFishingShow.jpg",
+   "altezza": 1500
+  },
+  {
+   "file": "assets/foto/canne-attrezzatura/canna-e-mulinello-su-foglie.jpg",
+   "cartella": "canne-attrezzatura",
+   "nome": "canna-e-mulinello-su-foglie",
+   "descrizione_originale": "real and rod on leaf",
+   "larghezza": 1600,
+   "licenza": "Public domain",
+   "autore": "Djupsjo",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Rodonleaf.JPG",
+   "altezza": 1200
+  },
+  {
+   "file": "assets/foto/canne-attrezzatura/coda-di-topo-seta.jpg",
+   "cartella": "canne-attrezzatura",
+   "nome": "coda-di-topo-seta",
+   "descrizione_originale": "OK. So I'm a trout snob. Silk fly line made by an old guy in Italy, along with a couple of silk leaders. (Great packagin",
+   "larghezza": 2000,
+   "licenza": "CC BY 2.0",
+   "autore": "Tom Hart from Ashland, OH, USA",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Trout_snob_-_Flickr_-_thart2009.jpg",
+   "altezza": 1304
+  },
+  {
+   "file": "assets/foto/canne-attrezzatura/kit-principiante.jpg",
+   "cartella": "canne-attrezzatura",
+   "nome": "kit-principiante",
+   "descrizione_originale": "A typical flyfishing set for beginner.",
+   "larghezza": 2000,
+   "licenza": "CC BY-SA 4.0",
+   "autore": "Marco Solar",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Flyfishing-set.jpg",
+   "altezza": 809
+  },
+  {
+   "file": "assets/foto/canne-attrezzatura/canna-bambu.jpg",
+   "cartella": "canne-attrezzatura",
+   "nome": "canna-bambu",
+   "descrizione_originale": "",
+   "larghezza": 1024,
+   "licenza": "CC BY 2.0",
+   "autore": "aliferste",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Bamboo_fly_rod_(51481672).jpg",
+   "altezza": 768
+  },
+  {
+   "file": "assets/foto/canne-attrezzatura/morsa-costruzione.jpg",
+   "cartella": "canne-attrezzatura",
+   "nome": "morsa-costruzione",
+   "descrizione_originale": "Flytying close up. Photo by D. Coble, BLM",
+   "larghezza": 2000,
+   "licenza": "Public domain",
+   "autore": "BLM Alaska",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Fly-tying_(53723909810).jpg",
+   "altezza": 2136
+  },
+  {
+   "file": "assets/foto/canne-attrezzatura/costruzione-mosca-primo-piano.jpg",
+   "cartella": "canne-attrezzatura",
+   "nome": "costruzione-mosca-primo-piano",
+   "descrizione_originale": "Student practices fly tying. Photo by D. Coble, BLM.",
+   "larghezza": 2000,
+   "licenza": "Public domain",
+   "autore": "BLM Alaska",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Fly-tying_closeup_(53722611722).jpg",
+   "altezza": 1951
+  },
+  {
+   "file": "assets/foto/fiumi-ambientazioni/torrente-sudtirolo.jpg",
+   "cartella": "fiumi-ambientazioni",
+   "nome": "torrente-sudtirolo",
+   "descrizione_originale": "mountain stream, Naturpark Rieserferner-Ahrn, South Tyrol",
+   "larghezza": 2000,
+   "licenza": "CC BY-SA 4.0",
+   "autore": "D2swirl",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Gebirgsbach_im_Rieserfernergebirge.jpg",
+   "altezza": 1500
+  },
+  {
+   "file": "assets/foto/fiumi-ambientazioni/torrente-graubuenden.jpg",
+   "cartella": "fiumi-ambientazioni",
+   "nome": "torrente-graubuenden",
+   "descrizione_originale": "Gebirgsbach in Graubünden (Schweiz)",
+   "larghezza": 2000,
+   "licenza": "CC BY-SA 4.0",
+   "autore": "Burkhard Händel",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Gebirgsbach_in_Graub%C3%BCnden_(Schweiz).jpg",
+   "altezza": 1125
+  },
+  {
+   "file": "assets/foto/fiumi-ambientazioni/torrente-oberstdorf.jpg",
+   "cartella": "fiumi-ambientazioni",
+   "nome": "torrente-oberstdorf",
+   "descrizione_originale": "Gebirgsbach Oberstdorf Alpen",
+   "larghezza": 2000,
+   "licenza": "CC BY 3.0",
+   "autore": "Gottfried Hoffmann -…",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Gebirgsbach_Oberstdorf_Alpen_-_panoramio.jpg",
+   "altezza": 1500
+  },
+  {
+   "file": "assets/foto/fiumi-ambientazioni/torrente-alpino-nz.jpg",
+   "cartella": "fiumi-ambientazioni",
+   "nome": "torrente-alpino-nz",
+   "descrizione_originale": "Alpine stream Mt Cook NP. NZ",
+   "larghezza": 2000,
+   "licenza": "CC0",
+   "autore": "Bernard Spragg. NZ from Christchurch, New Zealand",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Alpine_stream_Mt_Cook_NP._NZ_(23549939109).jpg",
+   "altezza": 1189
+  },
+  {
+   "file": "assets/foto/fiumi-ambientazioni/torrente-bosco-oirase.jpg",
+   "cartella": "fiumi-ambientazioni",
+   "nome": "torrente-bosco-oirase",
+   "descrizione_originale": "Oirase Mountain Stream - Towada, Aomori, Japan.",
+   "larghezza": 2000,
+   "licenza": "CC0",
+   "autore": "Daderot",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Oirase_Mountain_Stream_-_Towada,_Aomori_-_DSC00943.jpg",
+   "altezza": 1333
+  },
+  {
+   "file": "assets/foto/fiumi-ambientazioni/soca-kobarid.jpg",
+   "cartella": "fiumi-ambientazioni",
+   "nome": "soca-kobarid",
+   "descrizione_originale": "Soča river in Kobarid",
+   "larghezza": 2000,
+   "licenza": "CC0",
+   "autore": "Qasinka",
+   "fonte": "https://commons.wikimedia.org/wiki/File:2025_So%C4%8Da_in_Kobarid.jpg",
+   "altezza": 1500
+  },
+  {
+   "file": "assets/foto/fiumi-ambientazioni/soca-slovenia.jpg",
+   "cartella": "fiumi-ambientazioni",
+   "nome": "soca-slovenia",
+   "descrizione_originale": "Soča in Slovenia",
+   "larghezza": 1920,
+   "licenza": "CC0",
+   "autore": "Aschroet",
+   "fonte": "https://commons.wikimedia.org/wiki/File:So%C4%8Da_river,_Slovenia.jpg",
+   "altezza": 2560
+  },
+  {
+   "file": "assets/foto/fiumi-ambientazioni/val-ferret.jpg",
+   "cartella": "fiumi-ambientazioni",
+   "nome": "val-ferret",
+   "descrizione_originale": "This photograph captures the dramatic alpine landscape of Val Ferret in the Aosta Valley of northern",
+   "larghezza": 2000,
+   "licenza": "CC BY-SA 4.0",
+   "autore": "Ekbueno",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Talweg_of_Val_Ferret.jpg",
+   "altezza": 1335
+  },
+  {
+   "file": "assets/foto/fiumi-ambientazioni/nebbia-mattino.jpg",
+   "cartella": "fiumi-ambientazioni",
+   "nome": "nebbia-mattino",
+   "descrizione_originale": "NPS / Tim Rains",
+   "larghezza": 2000,
+   "licenza": "Public domain",
+   "autore": "GlacierNPS",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Morning_Mist_(20696678001).jpg",
+   "altezza": 1333
+  },
+  {
+   "file": "assets/foto/fiumi-ambientazioni/pescatore-soca.jpg",
+   "cartella": "fiumi-ambientazioni",
+   "nome": "pescatore-soca",
+   "descrizione_originale": "Fly fishing Slovenia Soca river",
+   "larghezza": 2000,
+   "licenza": "CC BY-SA 4.0",
+   "autore": "Ivanlaharnar",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Fly-fishing-the-Soca-river-Slovenia.jpg",
+   "altezza": 1330
+  },
+  {
+   "file": "assets/foto/fiumi-ambientazioni/pescatore-savinja.jpg",
+   "cartella": "fiumi-ambientazioni",
+   "nome": "pescatore-savinja",
+   "descrizione_originale": "Muharjenje na Savinji.",
+   "larghezza": 2000,
+   "licenza": "CC0",
+   "autore": "praimann",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Fly_fishing_in_Savinja_2010.jpg",
+   "altezza": 1500
+  },
+  {
+   "file": "assets/foto/fiumi-ambientazioni/pescatore-ain.jpg",
+   "cartella": "fiumi-ambientazioni",
+   "nome": "pescatore-ain",
+   "descrizione_originale": "Pêcheur à la mouche sur la rivière Ain, à Champagnole (Jura)",
+   "larghezza": 2000,
+   "licenza": "CC BY-SA 4.0",
+   "autore": "Wikipedro",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Champagnole,_p%C3%AAcheur_%C3%A0_la_mouche_sur_la_rivi%C3%A8re_Ain.jpg",
+   "altezza": 1500
+  },
+  {
+   "file": "assets/foto/fiumi-ambientazioni/pescatore-madison.jpg",
+   "cartella": "fiumi-ambientazioni",
+   "nome": "pescatore-madison",
+   "descrizione_originale": "Fly fisherman is taking a cast. Fly fishing on the Madison River Keywords: 20160601-ndh-3442.jpg; madison river; river; ",
+   "larghezza": 2000,
+   "licenza": "Public domain",
+   "autore": "Neal Herbert",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Fly_fishing_on_the_Madison_River_(261315bc-6be6-4d94-868b-a6408d0b4d95).jpg",
+   "altezza": 1333
+  },
+  {
+   "file": "assets/foto/fiumi-ambientazioni/pescatore-seedskadee.jpg",
+   "cartella": "fiumi-ambientazioni",
+   "nome": "pescatore-seedskadee",
+   "descrizione_originale": "Photo: Tom Koerner/U.S. Fish and Wildlife Service",
+   "larghezza": 2000,
+   "licenza": "Public domain",
+   "autore": "USFWS Mountain-Prairie",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Fly_fishing_-_Flickr_-_USFWS_Mountain_Prairie.jpg",
+   "altezza": 1328
+  },
+  {
+   "file": "assets/foto/fiumi-ambientazioni/trota-fario-sott-acqua.jpg",
+   "cartella": "fiumi-ambientazioni",
+   "nome": "trota-fario-sott-acqua",
+   "descrizione_originale": "Brown trout (Salmo trutta) hiding under rock in Vasalemma river, Estonia. Picture is made using wate",
+   "larghezza": 2000,
+   "licenza": "CC BY 4.0",
+   "autore": "Jürgen Karvak",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Brown_trout_08.2024.jpg",
+   "altezza": 1335
+  },
+  {
+   "file": "assets/foto/fiumi-ambientazioni/trota-fario-vetro.jpg",
+   "cartella": "fiumi-ambientazioni",
+   "nome": "trota-fario-vetro",
+   "descrizione_originale": "Brown trout as seen through the underwater viewing area at D.C. Booth Historic National Fish Hatcher",
+   "larghezza": 2000,
+   "licenza": "Public domain",
+   "autore": "USFWS Mountain Prairie",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Brown_Trout_(51238488071)_(cropped).jpg",
+   "altezza": 1197
+  },
+  {
+   "file": "assets/foto/fiumi-ambientazioni/trota-fario-leon.jpg",
+   "cartella": "fiumi-ambientazioni",
+   "nome": "trota-fario-leon",
+   "descrizione_originale": "Foto tomada en León (España)",
+   "larghezza": 2000,
+   "licenza": "CC0",
+   "autore": "Robermix",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Salmo_trutta_fario.jpg",
+   "altezza": 1125
+  },
+  {
+   "file": "assets/foto/fiumi-ambientazioni/trota-presa-a-mosca.jpg",
+   "cartella": "fiumi-ambientazioni",
+   "nome": "trota-presa-a-mosca",
+   "descrizione_originale": "Brown Trout having taken a soft-hackle nymph from the Firehole River, Yellowstone National Park (Released)",
+   "larghezza": 2000,
+   "licenza": "Public domain",
+   "autore": "Mike Cline",
+   "fonte": "https://commons.wikimedia.org/wiki/File:BrownTroutandSoftHackleNymph.JPG",
+   "altezza": 1500
+  },
+  {
+   "file": "assets/foto/fiumi-ambientazioni/effimera-adulta.jpg",
+   "cartella": "fiumi-ambientazioni",
+   "nome": "effimera-adulta",
+   "descrizione_originale": "WWT Knapp Reserve, Worcs. U.K. SO 748522",
+   "larghezza": 2000,
+   "licenza": "CC BY 2.0",
+   "autore": "gailhampshire from Cradley, Malvern, U.K",
+   "fonte": "https://commons.wikimedia.org/wiki/File:Green_Drake_Mayfly._Ephemera_danica_-_Flickr_-_gailhampshire.jpg",
+   "altezza": 1825
+  }
+ ],
+ "3d": [
+  {
+   "tipo": "hdri",
+   "nome": "kiara_1_dawn",
+   "percorso": "assets/3d/hdri/kiara_1_dawn_2k.hdr",
+   "licenza": "CC0",
+   "fonte": "https://polyhaven.com/a/kiara_1_dawn"
+  },
+  {
+   "tipo": "hdri",
+   "nome": "misty_dawn",
+   "percorso": "assets/3d/hdri/misty_dawn_2k.hdr",
+   "licenza": "CC0",
+   "fonte": "https://polyhaven.com/a/misty_dawn"
+  },
+  {
+   "tipo": "hdri",
+   "nome": "stream",
+   "percorso": "assets/3d/hdri/stream_2k.hdr",
+   "licenza": "CC0",
+   "fonte": "https://polyhaven.com/a/stream"
+  },
+  {
+   "tipo": "hdri",
+   "nome": "river_rocks",
+   "percorso": "assets/3d/hdri/river_rocks_2k.hdr",
+   "licenza": "CC0",
+   "fonte": "https://polyhaven.com/a/river_rocks"
+  },
+  {
+   "tipo": "hdri",
+   "nome": "near_the_river_02",
+   "percorso": "assets/3d/hdri/near_the_river_02_2k.hdr",
+   "licenza": "CC0",
+   "fonte": "https://polyhaven.com/a/near_the_river_02"
+  },
+  {
+   "tipo": "hdri",
+   "nome": "kiara_8_sunset",
+   "percorso": "assets/3d/hdri/kiara_8_sunset_2k.hdr",
+   "licenza": "CC0",
+   "fonte": "https://polyhaven.com/a/kiara_8_sunset"
+  },
+  {
+   "tipo": "hdri",
+   "nome": "misty_pines",
+   "percorso": "assets/3d/hdri/misty_pines_2k.hdr",
+   "licenza": "CC0",
+   "fonte": "https://polyhaven.com/a/misty_pines"
+  },
+  {
+   "tipo": "texture",
+   "nome": "river_small_rocks",
+   "percorso": "assets/3d/texture/river_small_rocks/",
+   "licenza": "CC0",
+   "fonte": "https://polyhaven.com/a/river_small_rocks"
+  },
+  {
+   "tipo": "texture",
+   "nome": "dry_river_pebbles",
+   "percorso": "assets/3d/texture/dry_river_pebbles/",
+   "licenza": "CC0",
+   "fonte": "https://polyhaven.com/a/dry_river_pebbles"
+  },
+  {
+   "tipo": "texture",
+   "nome": "ganges_river_pebbles",
+   "percorso": "assets/3d/texture/ganges_river_pebbles/",
+   "licenza": "CC0",
+   "fonte": "https://polyhaven.com/a/ganges_river_pebbles"
+  },
+  {
+   "tipo": "texture",
+   "nome": "mossy_rock",
+   "percorso": "assets/3d/texture/mossy_rock/",
+   "licenza": "CC0",
+   "fonte": "https://polyhaven.com/a/mossy_rock"
+  },
+  {
+   "tipo": "texture",
+   "nome": "forest_leaves_02",
+   "percorso": "assets/3d/texture/forest_leaves_02/",
+   "licenza": "CC0",
+   "fonte": "https://polyhaven.com/a/forest_leaves_02"
+  },
+  {
+   "tipo": "texture",
+   "nome": "bark_brown_02",
+   "percorso": "assets/3d/texture/bark_brown_02/",
+   "licenza": "CC0",
+   "fonte": "https://polyhaven.com/a/bark_brown_02"
+  },
+  {
+   "tipo": "texture",
+   "nome": "rock_ground",
+   "percorso": "assets/3d/texture/rock_ground/",
+   "licenza": "CC0",
+   "fonte": "https://polyhaven.com/a/rock_ground"
+  },
+  {
+   "tipo": "model",
+   "nome": "rock_moss_set_01",
+   "percorso": "assets/3d/modelli/rock_moss_set_01/",
+   "licenza": "CC0",
+   "fonte": "https://polyhaven.com/a/rock_moss_set_01"
+  },
+  {
+   "tipo": "model",
+   "nome": "boulder_01",
+   "percorso": "assets/3d/modelli/boulder_01/",
+   "licenza": "CC0",
+   "fonte": "https://polyhaven.com/a/boulder_01"
+  },
+  {
+   "tipo": "model",
+   "nome": "stone_01",
+   "percorso": "assets/3d/modelli/stone_01/",
+   "licenza": "CC0",
+   "fonte": "https://polyhaven.com/a/stone_01"
+  },
+  {
+   "tipo": "model",
+   "nome": "moss_01",
+   "percorso": "assets/3d/modelli/moss_01/",
+   "licenza": "CC0",
+   "fonte": "https://polyhaven.com/a/moss_01"
+  },
+  {
+   "tipo": "model",
+   "nome": "fern_02",
+   "percorso": "assets/3d/modelli/fern_02/",
+   "licenza": "CC0",
+   "fonte": "https://polyhaven.com/a/fern_02"
+  },
+  {
+   "tipo": "model",
+   "nome": "tree_stump_01",
+   "percorso": "assets/3d/modelli/tree_stump_01/",
+   "licenza": "CC0",
+   "fonte": "https://polyhaven.com/a/tree_stump_01"
+  },
+  {
+   "tipo": "model",
+   "nome": "dead_tree_trunk",
+   "percorso": "assets/3d/modelli/dead_tree_trunk/",
+   "licenza": "CC0",
+   "fonte": "https://polyhaven.com/a/dead_tree_trunk"
+  },
+  {
+   "tipo": "model",
+   "nome": "mosca-secca-stilizzata",
+   "percorso": "assets/3d/modelli/mosca-secca-stilizzata/mosca-secca.glb",
+   "licenza": "CC0",
+   "fonte": "creato per questo repo"
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+name: Pubblica su GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        if: hashFiles('package.json') != ''
+        with:
+          node-version: 20
+
+      - name: Costruisci il sito
+        run: |
+          if [ -f package.json ]; then
+            # Il sito vero (fatto da Claude): build con base path /mosche-da-pesca/
+            if [ -f package-lock.json ]; then npm ci; else npm install; fi
+            npm run build
+            if [ -d dist ]; then OUT=dist; elif [ -d out ]; then OUT=out; elif [ -d build ]; then OUT=build; else echo "Cartella di build non trovata"; exit 1; fi
+          else
+            # Nessun sito ancora: pubblica la pagina "In costruzione"
+            OUT=_site
+            mkdir -p _site/assets/foto/fiumi-ambientazioni _site/assets/3d/modelli/mosca-secca-stilizzata
+            cp anteprima/index.html _site/
+            cp assets/foto/fiumi-ambientazioni/torrente-bosco-oirase.jpg _site/assets/foto/fiumi-ambientazioni/
+            cp assets/3d/modelli/mosca-secca-stilizzata/mosca-secca.glb _site/assets/3d/modelli/mosca-secca-stilizzata/
+          fi
+          touch "$OUT/.nojekyll"
+          echo "OUT=$OUT" >> "$GITHUB_ENV"
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ${{ env.OUT }}
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
