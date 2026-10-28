@@ -13,6 +13,10 @@ if (salvato) {
   history.replaceState(null, '', salvato);
 }
 
+// La foto d'apertura pre-generata serve solo alla home
+const base = import.meta.env.BASE_URL;
+if (location.pathname !== base && location.pathname !== base.replace(/\/$/, '')) document.getElementById('hero-statico')?.remove();
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, '')}>

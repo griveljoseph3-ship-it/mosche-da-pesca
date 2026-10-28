@@ -8,7 +8,6 @@ const nomeFoto = (file) => file.replace(/\.jpg$/, '');
 const altri = [
   { cosa: 'Cormorant Garamond (titoli)', autore: 'Christian Thalmann, Catharsis Fonts', licenza: 'SIL Open Font License 1.1', url: 'https://github.com/CatharsisFonts/Cormorant' },
   { cosa: 'Inter (testi)', autore: 'Rasmus Andersson', licenza: 'SIL Open Font License 1.1', url: 'https://github.com/rsms/inter' },
-  { cosa: 'Effetto dell’acqua che scorre sulle foto del fiume (shader WebGL)', autore: 'Creato con codice per questo progetto', licenza: 'CC0 1.0', url: null },
   { cosa: 'Suono del torrente (sintetizzato con Web Audio)', autore: 'Creato con codice per questo progetto', licenza: 'CC0 1.0', url: null },
   { cosa: 'Icone e logo SVG', autore: 'Disegnati per questo progetto', licenza: 'CC0 1.0', url: null },
 ];

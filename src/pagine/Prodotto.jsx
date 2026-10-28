@@ -8,12 +8,11 @@ import Foto, { infoFoto } from '../componenti/Foto.jsx';
 import Rivela from '../componenti/Rivela.jsx';
 import SchedaProdotto, { amoPredefinito } from '../componenti/SchedaProdotto.jsx';
 import QuantitaInput from '../componenti/QuantitaInput.jsx';
-import ScatolaRegalo from '../componenti/ScatolaRegalo.jsx';
-import { Cubo, Foto as IconaFoto, Indietro, Lente, Spunta } from '../componenti/Icone.jsx';
+import { Indietro, Lente, Spunta } from '../componenti/Icone.jsx';
 import NonTrovata from './NonTrovata.jsx';
 
-// Foto macro: la foto vera con una leggera profondità e, al clic o al tocco, l'ingrandimento
-// che segue il puntatore (o il dito) per vedere piume, filo e amo da vicino.
+// Foto macro: al clic o al tocco l'ingrandimento segue il puntatore (o il dito)
+// per vedere piume, filo e amo da vicino.
 function FotoMacro({ p }) {
   const ref = useRef(null);
   const [zoom, setZoom] = useState(false);
@@ -51,7 +50,6 @@ function FotoMacro({ p }) {
       onPointerLeave={esci}
       style={{ '--grande': `url(${grande})` }}
     >
-      <Foto nome={p.foto} alt="" className="fm-sfondo" sizes="40vw" aria-hidden="true" />
       <div className="fm-primo" onClick={() => setZoom((z) => !z)}>
         <Foto nome={p.foto} alt={`${p.nome}, ${t.categorie[p.cat].toLowerCase()}: foto macro`} sizes="(min-width: 960px) 52vw, 100vw" priorita />
         <span className="fm-lente" aria-hidden="true" />
@@ -68,14 +66,12 @@ export default function Prodotto() {
   const p = perSlug[slug];
   const { aggiungi } = useCarrello();
   const mosca = p && eMosca(p);
-  const [vista, setVista] = useState('foto');
   const [amo, setAmo] = useState(() => (p ? amoPredefinito(p) : null));
   const [qta, setQta] = useState(1);
   const [fatto, setFatto] = useState(false);
   const timer = useRef(0);
 
   useEffect(() => {
-    setVista('foto');
     setAmo(p ? amoPredefinito(p) : null);
     setQta(1);
     setFatto(false);
@@ -107,19 +103,12 @@ export default function Prodotto() {
         </nav>
         <div className="prodotto-griglia">
           <div className="galleria">
-            <div className={`galleria-palco vista-${vista}`}>
-              {vista === 'foto' && <FotoMacro p={p} />}
-              {vista === 'scatola' && <div className="galleria-scatola"><ScatolaRegalo prodotto={p} automatica /></div>}
+            <div className="galleria-palco">
+              <FotoMacro p={p} />
               <span className="badge-demo galleria-badge">{t.demo}</span>
             </div>
             <div className="galleria-schede">
-              {p.cat === 'kit' && (
-                <div className="schede-vista" role="group" aria-label="Viste del prodotto">
-                  <button type="button" aria-pressed={vista === 'foto'} className={vista === 'foto' ? 'on' : ''} onClick={() => setVista('foto')}><IconaFoto /> {t.prodotto.foto}</button>
-                  <button type="button" aria-pressed={vista === 'scatola'} className={vista === 'scatola' ? 'on' : ''} onClick={() => setVista('scatola')}><Cubo /> {t.prodotto.apri}</button>
-                </div>
-              )}
-              <p className="piccolo tenue galleria-aiuto">{vista === 'foto' ? t.prodotto.istruzioniFoto : ''}</p>
+              <p className="piccolo tenue galleria-aiuto">{t.prodotto.istruzioniFoto}</p>
             </div>
           </div>
 

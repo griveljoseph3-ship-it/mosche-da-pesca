@@ -1,29 +1,18 @@
-import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { euro, testi as t } from '../i18n/index.js';
 import { prodotti } from '../data/catalogo.js';
 import { useCarrello } from '../stato/carrello.jsx';
 import Rivela from '../componenti/Rivela.jsx';
-import ScatolaRegalo from '../componenti/ScatolaRegalo.jsx';
+import Foto from '../componenti/Foto.jsx';
 import { Freccia } from '../componenti/Icone.jsx';
 
 function SchedaKit({ p, i }) {
-  const [sopra, setSopra] = useState(false);
-  const [fissa, setFissa] = useState(false);
-  const aperta = sopra || fissa;
   const { aggiungi } = useCarrello();
   return (
     <Rivela as="article" className={`kit-voce ${i % 2 ? 'inversa' : ''}`}>
-      <div
-        className="kit-voce-scatola"
-        onPointerEnter={(e) => e.pointerType === 'mouse' && setSopra(true)}
-        onPointerLeave={(e) => e.pointerType === 'mouse' && setSopra(false)}
-      >
-        <ScatolaRegalo prodotto={p} aperta={aperta} />
-        <button type="button" className="link-freccia" onClick={() => { setFissa(!aperta); setSopra(false); }} aria-pressed={aperta}>
-          {aperta ? t.nav.chiudi : t.prodotto.apri}
-        </button>
-      </div>
+      <Link to={`/prodotto/${p.slug}`} className="kit-voce-foto" tabIndex={-1} aria-hidden="true">
+        <Foto nome={p.foto} alt="" sizes="(min-width: 900px) 50vw, 100vw" />
+      </Link>
       <div className="kit-voce-testo">
         <p className="occhiello">{p.regalo ? t.kit.regalo : t.categorie.kit} <span className="badge-demo">{t.demo}</span></p>
         <h2 className="titolo-2">{p.nome}</h2>

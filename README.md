@@ -6,7 +6,7 @@ Negozio dimostrativo di mosche da pesca artigianali. **I prodotti e i prezzi son
 
 ## Cosa c'è dentro
 
-- **Home "Il fiume"**: un viaggio lungo il torrente fatto solo di foto vere. WebGL fa scorrere l'acqua nelle foto e passa da una all'altra come l'acqua che sale: superficie (mosche secche), mezz'acqua (sommerse), fondo tra i sassi (ninfe), corrente profonda con la trota (streamer). La luce va dall'alba al tramonto.
+- **Home**: una foto d'apertura del torrente, poi i quattro tipi di mosca come grandi foto del fiume (superficie: secche · mezz'acqua: sommerse · fondo tra i sassi: ninfe · corrente profonda: streamer), le mosche più scelte, il calendario e la storia. Niente effetti speciali: foto vere, testi brevi, caricamento rapido.
 - **Negozio diviso per tipo**: `/negozio` mostra tutte le sezioni (secche, sommerse, ninfe, streamer, kit e regali, attrezzatura); ogni tipo ha la sua pagina (`/negozio/secche`, `/negozio/ninfe`…) con filtri per misura dell'amo, stagione, pesce e acqua.
 - **Schede prodotto** con la foto macro vera e l'ingrandimento che segue il puntatore o il dito.
 - **Calendario delle schiuse**, **Kit e regali** (scatola che si apre), **La nostra storia**, **Contatti** (modulo finto), **Crediti**, **Spedizioni e resi**, **Privacy**.
@@ -29,14 +29,14 @@ Ogni push su `main` avvia `.github/workflows/pages.yml`, che fa la build e pubbl
 
 ## Struttura
 
-- `src/pagine/` le pagine, `src/componenti/` i pezzi dell'interfaccia, `src/fiume/` l'effetto WebGL del fiume.
+- `src/pagine/` le pagine, `src/componenti/` i pezzi dell'interfaccia.
 - `src/i18n/it.js` tutti i testi dell'interfaccia; `src/data/catalogo.it.js` i testi dei prodotti. Per l'inglese basta aggiungere `en.js` e `catalogo.en.js`.
 - `src/data/catalogo.js` prodotti, prezzi e filtri; `src/data/schiuse.js` il calendario degli insetti.
 - `assets/` gli originali (foto, modelli, HDRI) e `assets/LICENZE.md` con autori e licenze.
 
 ## Prestazioni e accessibilità
 
-- La prima foto è l'immagine principale e si carica subito; l'effetto WebGL parte dopo. Senza GPU le foto si danno il cambio con una dissolvenza; con "riduci movimento" l'acqua resta ferma.
+- La foto d'apertura è già nell'HTML della home; il codice delle altre pagine si scarica in sottofondo, così i clic sono istantanei.
 - Testo alternativo per le immagini, uso da tastiera, contrasto adeguato.
 
 ## Importante

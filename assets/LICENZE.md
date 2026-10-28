@@ -127,7 +127,6 @@ Tutto quello che segue è stato creato con codice per questo progetto e si può 
 
 | Cosa | Dove |
 |---|---|
-| Effetto WebGL sulle foto del fiume (acqua che scorre, transizioni, luce dall'alba al tramonto) | `src/fiume/FiumeFoto.jsx` |
 | Immagine per le anteprime social (testo sopra la foto `torrente-bosco-oirase.jpg`, CC0) | `public/og.jpg` (creata con `strumenti/og.cjs`) |
 | Suono del torrente (sintetizzato nel browser con Web Audio, nessun file audio) | `src/lib/suono.js` |
 | Logo, icone e favicon SVG | `src/componenti/Icone.jsx`, `public/favicon.svg` |

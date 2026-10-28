@@ -5,7 +5,10 @@ import path from 'node:path';
 import { percorsiProdotti, percorsiStatici, seoPer, SITO, urlAssoluto } from '../src/lib/seo.js';
 
 const DIST = path.resolve(path.dirname(new URL(import.meta.url).pathname), '../dist');
-const base = fs.readFileSync(path.join(DIST, 'index.html'), 'utf8');
+// I caratteri dei titoli e del testo si scaricano subito: niente salto del testo quando arrivano.
+const font = fs.readdirSync(path.join(DIST, 'assets')).filter((f) => /^(cormorant-garamond-latin-400-(normal|italic)|inter-latin-wght-normal)-.*\.woff2$/.test(f));
+const precaricaFont = font.map((f) => `<link rel="preload" as="font" type="font/woff2" href="/mosche-da-pesca/assets/${f}" crossorigin />`).join('\n    ');
+const base = fs.readFileSync(path.join(DIST, 'index.html'), 'utf8').replace('<meta name="theme-color"', `${precaricaFont}\n    <meta name="theme-color"`);
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
 function testa(percorso) {
@@ -33,8 +36,12 @@ function testa(percorso) {
 const POSTER = ['480', '960', '1600'].map((w) => `/mosche-da-pesca/img/fiumi-ambientazioni/torrente-bosco-oirase-${w}.avif ${w}w`).join(', ');
 const precarica = `<link rel="preload" as="image" type="image/avif" imagesrcset="${POSTER}" imagesizes="100vw" fetchpriority="high" />`;
 
+// Home: la foto d'apertura è già nell'HTML (fuori da React), così si vede subito anche su reti lente.
+const set = (ext) => ['480', '960', '1600'].map((w) => `/mosche-da-pesca/img/fiumi-ambientazioni/torrente-bosco-oirase-${w}.${ext} ${w}w`).join(', ');
+const heroStatico = `<div id="hero-statico" class="hero-statico" aria-hidden="true"><picture><source type="image/avif" srcset="${set('avif')}" sizes="100vw" /><source type="image/webp" srcset="${set('webp')}" sizes="100vw" /><img src="/mosche-da-pesca/img/fiumi-ambientazioni/torrente-bosco-oirase-960.webp" alt="" width="2000" height="1333" fetchpriority="high" /></picture></div>`;
+
 const sostituisci = (html, percorso) =>
-  html.replace(/<!--SEO-->[\s\S]*?<!--\/SEO-->/, `<!--SEO-->\n    ${testa(percorso)}${percorso === '/' ? `\n    ${precarica}` : ''}\n    <!--/SEO-->`);
+  (percorso === '/' ? html.replace('<div id="root"></div>', `${heroStatico}<div id="root"></div>`) : html).replace(/<!--SEO-->[\s\S]*?<!--\/SEO-->/, `<!--SEO-->\n    ${testa(percorso)}${percorso === '/' ? `\n    ${precarica}` : ''}\n    <!--/SEO-->`);
 
 const tutti = [...percorsiStatici, ...percorsiProdotti];
 for (const p of tutti) {

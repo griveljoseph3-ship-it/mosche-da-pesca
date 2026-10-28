@@ -44,9 +44,6 @@ html {
   background: var(--nero);
   scroll-behavior: auto;
 }
-html.lenis, html.lenis body { height: auto; }
-.lenis.lenis-smooth { scroll-behavior: auto !important; }
-.lenis.lenis-stopped { overflow: hidden; }
 
 body {
   margin: 0;
@@ -187,7 +184,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   border-radius: 999px;
   overflow: hidden;
   isolation: isolate;
-  transition: color 0.5s var(--lento), transform 0.5s var(--lento);
+  transition: color 0.25s, transform 0.25s;
   white-space: nowrap;
 }
 .btn::before {
@@ -197,7 +194,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   z-index: -1;
   background: var(--oro);
   transform: translateY(101%);
-  transition: transform 0.6s var(--lento);
+  transition: transform 0.3s var(--lento);
   border-radius: inherit;
 }
 .btn:hover::before { transform: translateY(0); }
@@ -256,11 +253,11 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 }
 
 /* ——— Rivelazioni ——— */
-.rivela { opacity: 0; transform: translateY(28px); transition: opacity 1.2s var(--lento), transform 1.2s var(--lento); }
+.rivela { opacity: 0; transform: translateY(12px); transition: opacity 0.5s var(--lento), transform 0.5s var(--lento); }
 .rivela.visibile { opacity: 1; transform: none; }
-.rivela-ritardo-1 { transition-delay: 0.1s; }
-.rivela-ritardo-2 { transition-delay: 0.2s; }
-.rivela-ritardo-3 { transition-delay: 0.3s; }
+.rivela-ritardo-1 { transition-delay: 0.05s; }
+.rivela-ritardo-2 { transition-delay: 0.1s; }
+.rivela-ritardo-3 { transition-delay: 0.15s; }
 
 /* ——— Campi ——— */
 .campo { display: grid; gap: 0.45rem; }
@@ -282,35 +279,11 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .campo .errore { color: #9b2c1c; font-size: 0.8rem; }
 .campo [aria-invalid='true'] { border-color: #9b2c1c; }
 
-/* ——— Cursore personalizzato ——— */
-.cursore {
-  position: fixed;
-  left: 0; top: 0;
-  z-index: 300;
-  width: 36px; height: 36px;
-  margin: -18px 0 0 -18px;
-  border: 1px solid rgba(198, 166, 107, 0.85);
-  border-radius: 50%;
-  pointer-events: none;
-  transition: width 0.45s var(--lento), height 0.45s var(--lento), margin 0.45s var(--lento), background 0.45s var(--lento), opacity 0.3s;
-  opacity: 0;
-}
-.cursore.attivo { opacity: 1; }
-.cursore.sopra { width: 64px; height: 64px; margin: -32px 0 0 -32px; background: rgba(198, 166, 107, 0.12); }
-.cursore-punto {
-  position: fixed; left: 0; top: 0; z-index: 301;
-  width: 4px; height: 4px; margin: -2px 0 0 -2px;
-  border-radius: 50%; background: var(--crema);
-  pointer-events: none; display: none;
-  opacity: 0; transition: opacity 0.3s;
-}
-.cursore-punto.attivo { opacity: 1; }
-
 /* Transizioni tra pagine (View Transitions API) */
-::view-transition-old(root) { animation: 0.45s var(--morbido) both vt-esci; }
-::view-transition-new(root) { animation: 0.7s var(--lento) both vt-entra; }
-@keyframes vt-esci { to { opacity: 0; transform: translateY(-12px); filter: blur(4px); } }
-@keyframes vt-entra { from { opacity: 0; transform: translateY(16px); } }
+::view-transition-old(root) { animation: 0.15s ease-out both vt-esci; }
+::view-transition-new(root) { animation: 0.25s ease-out both vt-entra; }
+@keyframes vt-esci { to { opacity: 0; } }
+@keyframes vt-entra { from { opacity: 0; } }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {

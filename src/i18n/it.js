@@ -30,7 +30,13 @@ export default {
     titolo: ['Il fiume', 'comincia all’alba.'],
     sottotitolo: 'Mosche secche, sommerse, ninfe e streamer nate al banco, provate nei torrenti alpini.',
     ctaNegozio: 'Entra nel negozio',
-    ctaScendi: 'Scendi nel fiume',
+    ctaScendi: 'Scegli la tua mosca',
+    tipiOcchiello: 'Dalla superficie al fondo',
+    tipiTitolo: 'Scegli il tipo di mosca',
+    tipiTesto: 'Ogni mosca lavora a una profondità diversa del fiume. Parti da lì.',
+    vedi: (n) => `Vedi le ${n}`,
+    piuSceltiTitolo: 'Le più scelte',
+    piuSceltiCta: 'Tutto il negozio',
     scorri: 'Scorri',
     livelli: [
       {
