@@ -1,0 +1,1 @@
+var e=`riale-cassa-v1`,t=()=>{try{return JSON.parse(sessionStorage.getItem(e)||`{}`)}catch{return{}}},n=t=>{try{sessionStorage.setItem(e,JSON.stringify(t))}catch{}},r=()=>{try{sessionStorage.removeItem(e)}catch{}};export{t as n,n as r,r as t};
