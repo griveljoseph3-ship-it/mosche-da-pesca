@@ -289,20 +289,19 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   z-index: 300;
   width: 36px; height: 36px;
   margin: -18px 0 0 -18px;
-  border: 1px solid rgba(241, 233, 216, 0.75);
+  border: 1px solid rgba(198, 166, 107, 0.85);
   border-radius: 50%;
   pointer-events: none;
-  mix-blend-mode: difference;
   transition: width 0.45s var(--lento), height 0.45s var(--lento), margin 0.45s var(--lento), background 0.45s var(--lento), opacity 0.3s;
   opacity: 0;
 }
 .cursore.attivo { opacity: 1; }
-.cursore.sopra { width: 72px; height: 72px; margin: -36px 0 0 -36px; background: rgba(241, 233, 216, 0.95); }
+.cursore.sopra { width: 64px; height: 64px; margin: -32px 0 0 -32px; background: rgba(198, 166, 107, 0.12); }
 .cursore-punto {
   position: fixed; left: 0; top: 0; z-index: 301;
   width: 4px; height: 4px; margin: -2px 0 0 -2px;
   border-radius: 50%; background: var(--crema);
-  pointer-events: none; mix-blend-mode: difference;
+  pointer-events: none; display: none;
   opacity: 0; transition: opacity 0.3s;
 }
 .cursore-punto.attivo { opacity: 1; }

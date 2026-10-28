@@ -6,8 +6,9 @@ Negozio dimostrativo di mosche da pesca artigianali. **I prodotti e i prezzi son
 
 ## Cosa c'è dentro
 
-- **Home "Il fiume"**: una scena 3D (React Three Fiber) di un torrente all'alba. Scorrendo, la telecamera segue la corrente e scende sotto l'acqua: mosche secche in superficie, sommerse a mezz'acqua, ninfe sul fondo, streamer nella corrente profonda con una trota che passa. La luce va dall'alba al tramonto.
-- **Negozio** con filtri (tipo, misura dell'amo, stagione, pesce, acqua), **schede prodotto** con vista 3D della mosca da ruotare e ingrandire e foto macro con effetto di profondità.
+- **Home "Il fiume"**: un viaggio lungo il torrente fatto solo di foto vere. WebGL fa scorrere l'acqua nelle foto e passa da una all'altra come l'acqua che sale: superficie (mosche secche), mezz'acqua (sommerse), fondo tra i sassi (ninfe), corrente profonda con la trota (streamer). La luce va dall'alba al tramonto.
+- **Negozio diviso per tipo**: `/negozio` mostra tutte le sezioni (secche, sommerse, ninfe, streamer, kit e regali, attrezzatura); ogni tipo ha la sua pagina (`/negozio/secche`, `/negozio/ninfe`…) con filtri per misura dell'amo, stagione, pesce e acqua.
+- **Schede prodotto** con la foto macro vera e l'ingrandimento che segue il puntatore o il dito.
 - **Calendario delle schiuse**, **Kit e regali** (scatola che si apre), **La nostra storia**, **Contatti** (modulo finto), **Crediti**, **Spedizioni e resi**, **Privacy**.
 - **Carrello** salvato nel browser e **cassa simulata** in 3 passaggi, fino a "Ordine demo ricevuto".
 
@@ -17,25 +18,25 @@ Negozio dimostrativo di mosche da pesca artigianali. **I prodotti e i prezzi son
 npm install
 npm run dev      # sviluppo su http://localhost:5173/mosche-da-pesca/
 npm run build    # sito in dist/ (con pagine pre-generate, sitemap, robots, 404)
-npm run assets   # rigenera foto WebP/AVIF, GLB Draco, texture e HDRI da assets/
+npm run assets   # rigenera le foto WebP/AVIF e i crediti da assets/
 ```
 
 `npm run assets` serve solo se cambiano i file in `assets/`: i file per il web sono già in `public/`.
 
 ## Pubblicazione
 
-Ogni push su `main` avvia `.github/workflows/pages.yml`, che fa la build e pubblica `dist/` su GitHub Pages.
+Ogni push su `main` avvia `.github/workflows/pages.yml`, che fa la build e pubblica `dist/` sul branch `gh-pages` (servito da GitHub Pages).
 
 ## Struttura
 
-- `src/pagine/` le pagine, `src/componenti/` i pezzi dell'interfaccia, `src/tre/` la scena 3D e il visore delle mosche.
+- `src/pagine/` le pagine, `src/componenti/` i pezzi dell'interfaccia, `src/fiume/` l'effetto WebGL del fiume.
 - `src/i18n/it.js` tutti i testi dell'interfaccia; `src/data/catalogo.it.js` i testi dei prodotti. Per l'inglese basta aggiungere `en.js` e `catalogo.en.js`.
 - `src/data/catalogo.js` prodotti, prezzi e filtri; `src/data/schiuse.js` il calendario degli insetti.
 - `assets/` gli originali (foto, modelli, HDRI) e `assets/LICENZE.md` con autori e licenze.
 
 ## Prestazioni e accessibilità
 
-- Il 3D si carica solo dopo la pagina; su telefoni e computer lenti la scena è più leggera; senza GPU, o con "riduci movimento", al posto del 3D ci sono le foto.
+- La prima foto è l'immagine principale e si carica subito; l'effetto WebGL parte dopo. Senza GPU le foto si danno il cambio con una dissolvenza; con "riduci movimento" l'acqua resta ferma.
 - Testo alternativo per le immagini, uso da tastiera, contrasto adeguato.
 
 ## Importante

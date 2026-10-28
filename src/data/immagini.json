@@ -669,38 +669,5 @@
   ],
   "lqip": "data:image/webp;base64,UklGRlwAAABXRUJQVlA4IFAAAAAQBACdASoYABAAPu1mqk2ppaQiMAgBMB2JYwDE2CHeh+bJ0+HDT05FAAD+5ygDL4JSWzwT8HcwlBUowLzumlf0fm7ZYwNSqfRhbBaACgAAAA==",
   "colore": "rgb(232,232,232)"
- },
- "render/matuka-fario": {
-  "w": 1656,
-  "h": 1656,
-  "sizes": [
-   480,
-   960,
-   1600
-  ],
-  "lqip": "data:image/webp;base64,UklGRkoAAABXRUJQVlA4ID4AAAAQAwCdASoYABgAPu1qqFAtJiiiqA1RoB2JZwDG9Baf+sAA/u8O+bfUgRTze2LP2/0MCOZkVe3C100LzwAAAA==",
-  "colore": "rgb(24,40,24)"
- },
- "render/perdigon-fario": {
-  "w": 1656,
-  "h": 1656,
-  "sizes": [
-   480,
-   960,
-   1600
-  ],
-  "lqip": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAAAQAwCdASoYABgAPu1sq1GppaOiqAqpMB2JZwAAQXFrNXAA/u83ck+/cjvTemWUHfPHGD83125pS11C3IFwAAAA",
-  "colore": "rgb(24,40,24)"
- },
- "render/poster-alba": {
-  "w": 1920,
-  "h": 1080,
-  "sizes": [
-   480,
-   960,
-   1600
-  ],
-  "lqip": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAADwAwCdASoYAA4APu1iqU2ppaOiMAgBMB2JYwCdMoACarEQwl8HfBvAAP7p9ZS+LR2Egy1iq2/mTK0vKwAP0YBu8aWUnumY3SVwW4l9mof5rCvCYAA=",
-  "colore": "rgb(72,56,40)"
  }
 }

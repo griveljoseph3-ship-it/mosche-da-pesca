@@ -29,8 +29,8 @@ function testa(percorso) {
   return righe.join('\n    ');
 }
 
-// Sulla home: precarica il poster (immagine LCP) nella misura giusta
-const POSTER = ['480', '960', '1600'].map((w) => `/mosche-da-pesca/img/render/poster-alba-${w}.avif ${w}w`).join(', ');
+// Sulla home: precarica la prima foto del fiume (immagine LCP) nella misura giusta
+const POSTER = ['480', '960', '1600'].map((w) => `/mosche-da-pesca/img/fiumi-ambientazioni/torrente-bosco-oirase-${w}.avif ${w}w`).join(', ');
 const precarica = `<link rel="preload" as="image" type="image/avif" imagesrcset="${POSTER}" imagesizes="100vw" fetchpriority="high" />`;
 
 const sostituisci = (html, percorso) =>

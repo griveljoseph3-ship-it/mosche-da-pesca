@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { testi as t } from '../i18n/index.js';
+import { urlCategoria } from '../data/catalogo.js';
 import { Logo } from './Icone.jsx';
 
 export default function Footer() {
@@ -14,12 +15,12 @@ export default function Footer() {
           </div>
           <nav className="piede-col" aria-label={t.footer.negozio}>
             <p className="occhiello">{t.footer.negozio}</p>
-            <Link to="/negozio?tipo=secca">{t.categoriePlurale.secca}</Link>
-            <Link to="/negozio?tipo=sommersa">{t.categoriePlurale.sommersa}</Link>
-            <Link to="/negozio?tipo=ninfa">{t.categoriePlurale.ninfa}</Link>
-            <Link to="/negozio?tipo=streamer">{t.categoriePlurale.streamer}</Link>
-            <Link to="/kit">{t.nav.kit}</Link>
-            <Link to="/negozio?tipo=attrezzatura">{t.categoriePlurale.attrezzatura}</Link>
+            <Link to={urlCategoria('secca')}>{t.categoriePlurale.secca}</Link>
+            <Link to={urlCategoria('sommersa')}>{t.categoriePlurale.sommersa}</Link>
+            <Link to={urlCategoria('ninfa')}>{t.categoriePlurale.ninfa}</Link>
+            <Link to={urlCategoria('streamer')}>{t.categoriePlurale.streamer}</Link>
+            <Link to={urlCategoria('kit')}>{t.nav.kit}</Link>
+            <Link to={urlCategoria('attrezzatura')}>{t.categoriePlurale.attrezzatura}</Link>
           </nav>
           <nav className="piede-col" aria-label={t.footer.aiuto}>
             <p className="occhiello">{t.footer.aiuto}</p>

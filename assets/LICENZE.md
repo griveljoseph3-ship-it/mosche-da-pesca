@@ -127,13 +127,12 @@ Tutto quello che segue è stato creato con codice per questo progetto e si può 
 
 | Cosa | Dove |
 |---|---|
-| Shader dell'acqua (corrente, riflessi, schiuma, cerchi, finestra di Snell), cielo e montagne, nebbia, raggi di luce, caustiche, particelle | `src/tre/*.jsx`, `src/tre/glsl.js` |
-| Abeti, trota fario, ninfe e streamer 3D (geometrie procedurali) | `src/tre/Alberi.jsx`, `src/tre/Trota.jsx`, `src/tre/MoscaProcedurale.jsx` |
-| Varianti di colore della mosca 3D (da `mosca-secca.glb`) | `src/tre/MoscaGLB.jsx` |
-| Render della scena: `poster-alba.png`, `perdigon-fario.png`, `matuka-fario.png` | `assets/foto/render/` (creati con `strumenti/render.cjs`) |
-| Immagine per le anteprime social | `public/og.jpg` (dal render `poster-alba.png`) |
+| Effetto WebGL sulle foto del fiume (acqua che scorre, transizioni, luce dall'alba al tramonto) | `src/fiume/FiumeFoto.jsx` |
+| Immagine per le anteprime social (testo sopra la foto `torrente-bosco-oirase.jpg`, CC0) | `public/og.jpg` (creata con `strumenti/og.cjs`) |
 | Suono del torrente (sintetizzato nel browser con Web Audio, nessun file audio) | `src/lib/suono.js` |
 | Logo, icone e favicon SVG | `src/componenti/Icone.jsx`, `public/favicon.svg` |
+
+Il sito usa solo le fotografie vere elencate sopra. I file 3D Poly Haven in `assets/3d/` restano nel repository ma il sito non li usa.
 
 ## Caratteri (SIL Open Font License 1.1)
 
@@ -146,4 +145,4 @@ Serviti dal sito stesso tramite i pacchetti `@fontsource`.
 
 ## Versioni per il web
 
-Le foto in `public/img/` sono copie ridimensionate (480, 960, 1600 px) e convertite in WebP e AVIF dagli originali in `assets/foto/`, con la stessa licenza dell'originale (le CC BY-SA restano CC BY-SA). I modelli in `public/3d/modelli/` sono gli stessi glTF Poly Haven compressi con Draco e texture WebP; gli HDRI in `public/3d/hdri/` sono ridotti a 1k e 512 px. Tutto si rigenera con `npm run assets`.
+Le foto in `public/img/` sono copie ridimensionate (480, 960, 1600 px) e convertite in WebP e AVIF dagli originali in `assets/foto/`, con la stessa licenza dell'originale (le CC BY-SA restano CC BY-SA). Si rigenerano con `npm run assets`.

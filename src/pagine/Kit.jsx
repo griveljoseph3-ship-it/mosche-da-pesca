@@ -8,19 +8,19 @@ import ScatolaRegalo from '../componenti/ScatolaRegalo.jsx';
 import { Freccia } from '../componenti/Icone.jsx';
 
 function SchedaKit({ p, i }) {
-  const [aperta, setAperta] = useState(false);
+  const [sopra, setSopra] = useState(false);
+  const [fissa, setFissa] = useState(false);
+  const aperta = sopra || fissa;
   const { aggiungi } = useCarrello();
   return (
     <Rivela as="article" className={`kit-voce ${i % 2 ? 'inversa' : ''}`}>
       <div
         className="kit-voce-scatola"
-        onPointerEnter={() => setAperta(true)}
-        onPointerLeave={() => setAperta(false)}
-        onFocus={() => setAperta(true)}
-        onBlur={() => setAperta(false)}
+        onPointerEnter={(e) => e.pointerType === 'mouse' && setSopra(true)}
+        onPointerLeave={(e) => e.pointerType === 'mouse' && setSopra(false)}
       >
         <ScatolaRegalo prodotto={p} aperta={aperta} />
-        <button type="button" className="link-freccia" onClick={() => setAperta((a) => !a)} aria-pressed={aperta}>
+        <button type="button" className="link-freccia" onClick={() => { setFissa(!aperta); setSopra(false); }} aria-pressed={aperta}>
           {aperta ? t.nav.chiudi : t.prodotto.apri}
         </button>
       </div>

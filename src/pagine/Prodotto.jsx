@@ -1,42 +1,64 @@
-import { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { euro, testi as t } from '../i18n/index.js';
-import { correlati, eMosca, perSlug } from '../data/catalogo.js';
+import { correlati, eMosca, perSlug, urlCategoria } from '../data/catalogo.js';
 import { useCarrello } from '../stato/carrello.jsx';
-import { haWebGL, movimentoRidotto } from '../lib/qualita.js';
-import Foto from '../componenti/Foto.jsx';
+import { movimentoRidotto, url } from '../lib/qualita.js';
+import Foto, { infoFoto } from '../componenti/Foto.jsx';
 import Rivela from '../componenti/Rivela.jsx';
 import SchedaProdotto, { amoPredefinito } from '../componenti/SchedaProdotto.jsx';
 import QuantitaInput from '../componenti/QuantitaInput.jsx';
 import ScatolaRegalo from '../componenti/ScatolaRegalo.jsx';
-import { Cubo, Foto as IconaFoto, Indietro, Spunta } from '../componenti/Icone.jsx';
+import { Cubo, Foto as IconaFoto, Indietro, Lente, Spunta } from '../componenti/Icone.jsx';
 import NonTrovata from './NonTrovata.jsx';
 
-const Visore3D = lazy(() => import('../tre/Visore3D.jsx'));
-
-// Foto macro con profondità: lo sfondo sfocato e la mosca si muovono a velocità diverse.
-function FotoProfonda({ p }) {
+// Foto macro: la foto vera con una leggera profondità e, al clic o al tocco, l'ingrandimento
+// che segue il puntatore (o il dito) per vedere piume, filo e amo da vicino.
+function FotoMacro({ p }) {
   const ref = useRef(null);
-  const muovi = (e) => {
+  const [zoom, setZoom] = useState(false);
+  const info = infoFoto(p.foto);
+  const grande = url(`img/${p.foto}-${info ? info.sizes[info.sizes.length - 1] : 960}.webp`);
+  const sposta = (x, y) => {
     const el = ref.current;
-    if (!el || movimentoRidotto()) return;
-    const r = el.getBoundingClientRect();
-    const x = (e.clientX - r.left) / r.width - 0.5;
-    const y = (e.clientY - r.top) / r.height - 0.5;
-    el.style.setProperty('--px', x.toFixed(3));
-    el.style.setProperty('--py', y.toFixed(3));
+    if (!el) return;
+    el.style.setProperty('--px', (x - 0.5).toFixed(3));
+    el.style.setProperty('--py', (y - 0.5).toFixed(3));
+    el.style.setProperty('--zx', `${(x * 100).toFixed(1)}%`);
+    el.style.setProperty('--zy', `${(y * 100).toFixed(1)}%`);
   };
-  const esci = () => {
-    ref.current?.style.setProperty('--px', 0);
-    ref.current?.style.setProperty('--py', 0);
+  const muovi = (e) => {
+    const r = ref.current.getBoundingClientRect();
+    sposta(Math.min(1, Math.max(0, (e.clientX - r.left) / r.width)), Math.min(1, Math.max(0, (e.clientY - r.top) / r.height)));
+  };
+  const esci = () => { if (!zoom) sposta(0.5, 0.5); };
+  const tasti = (e) => {
+    if (!zoom) return;
+    const el = ref.current;
+    const x = parseFloat(el.style.getPropertyValue('--zx') || '50') / 100;
+    const y = parseFloat(el.style.getPropertyValue('--zy') || '50') / 100;
+    const d = 0.08;
+    const mappa = { ArrowLeft: [-d, 0], ArrowRight: [d, 0], ArrowUp: [0, -d], ArrowDown: [0, d] };
+    if (mappa[e.key]) { e.preventDefault(); sposta(Math.min(1, Math.max(0, x + mappa[e.key][0])), Math.min(1, Math.max(0, y + mappa[e.key][1]))); }
+    if (e.key === 'Escape') setZoom(false);
   };
   return (
-    <div className="foto-profonda" ref={ref} onPointerMove={muovi} onPointerLeave={esci}>
-      <Foto nome={p.foto} alt="" className="fp-sfondo" sizes="40vw" aria-hidden="true" />
-      <div className="fp-primo">
-        <Foto nome={p.foto} alt={`${p.nome}, ${t.categorie[p.cat].toLowerCase()} in macro`} sizes="(min-width: 960px) 52vw, 100vw" priorita />
+    <div
+      className={`foto-macro ${zoom ? 'zoom' : ''} ${movimentoRidotto() ? 'fermo' : ''}`}
+      ref={ref}
+      onPointerMove={muovi}
+      onPointerDown={muovi}
+      onPointerLeave={esci}
+      style={{ '--grande': `url(${grande})` }}
+    >
+      <Foto nome={p.foto} alt="" className="fm-sfondo" sizes="40vw" aria-hidden="true" />
+      <div className="fm-primo" onClick={() => setZoom((z) => !z)}>
+        <Foto nome={p.foto} alt={`${p.nome}, ${t.categorie[p.cat].toLowerCase()}: foto macro`} sizes="(min-width: 960px) 52vw, 100vw" priorita />
+        <span className="fm-lente" aria-hidden="true" />
       </div>
-      <span className="fp-luce" aria-hidden="true" />
+      <button type="button" className="fm-btn" onClick={() => setZoom((z) => !z)} onKeyDown={tasti} aria-pressed={zoom}>
+        <Lente size={16} /> {zoom ? t.prodotto.zoomEsci : t.prodotto.zoom}
+      </button>
     </div>
   );
 }
@@ -50,20 +72,23 @@ export default function Prodotto() {
   const [amo, setAmo] = useState(() => (p ? amoPredefinito(p) : null));
   const [qta, setQta] = useState(1);
   const [fatto, setFatto] = useState(false);
-  const webgl = useMemo(() => typeof window !== 'undefined' && haWebGL(), []);
+  const timer = useRef(0);
 
   useEffect(() => {
-    setVista(p?.render && webgl ? '3d' : 'foto');
+    setVista('foto');
     setAmo(p ? amoPredefinito(p) : null);
     setQta(1);
+    setFatto(false);
   }, [slug]); // eslint-disable-line react-hooks/exhaustive-deps
+  useEffect(() => () => clearTimeout(timer.current), []);
 
   if (!p) return <NonTrovata testo={t.prodotto.nonTrovato} />;
 
   const compra = () => {
     aggiungi(p.slug, { amo: mosca ? amo : null, qta });
     setFatto(true);
-    setTimeout(() => setFatto(false), 1800);
+    clearTimeout(timer.current);
+    timer.current = setTimeout(() => setFatto(false), 1800);
   };
 
   const attr = [
@@ -78,33 +103,24 @@ export default function Prodotto() {
         <nav className="briciole piccolo" aria-label="Percorso">
           <Link to="/negozio" className="link-sottile" viewTransition><Indietro size={14} /> {t.prodotto.torna}</Link>
           <span aria-hidden="true">/</span>
-          <Link to={`/negozio?tipo=${p.cat}`} className="tenue">{t.categoriePlurale[p.cat]}</Link>
+          <Link to={urlCategoria(p.cat)} className="tenue">{t.categoriePlurale[p.cat]}</Link>
         </nav>
         <div className="prodotto-griglia">
           <div className="galleria">
             <div className={`galleria-palco vista-${vista}`}>
-              {vista === 'foto' && (p.cat === 'kit' ? <div className="galleria-scatola"><ScatolaRegalo prodotto={p} automatica /></div> : <FotoProfonda p={p} />)}
-              {vista === '3d' && (
-                <Suspense fallback={<div className="visore-attesa"><span className="attesa-onda" /> {t.prodotto.caricamento3d}</div>}>
-                  <Visore3D p={p} />
-                </Suspense>
-              )}
+              {vista === 'foto' && <FotoMacro p={p} />}
+              {vista === 'scatola' && <div className="galleria-scatola"><ScatolaRegalo prodotto={p} automatica /></div>}
               <span className="badge-demo galleria-badge">{t.demo}</span>
-              {p.render && vista === 'foto' && <span className="galleria-nota piccolo">{t.prodotto.render}</span>}
             </div>
-            {(mosca || p.cat === 'kit') && (
-              <div className="galleria-schede" role="tablist" aria-label="Viste del prodotto">
-                <button type="button" role="tab" aria-selected={vista === 'foto'} className={vista === 'foto' ? 'on' : ''} onClick={() => setVista('foto')}>
-                  {p.cat === 'kit' ? <><Cubo /> {t.prodotto.apri}</> : <><IconaFoto /> {t.prodotto.foto}</>}
-                </button>
-                {mosca && webgl && (
-                  <button type="button" role="tab" aria-selected={vista === '3d'} className={vista === '3d' ? 'on' : ''} onClick={() => setVista('3d')}>
-                    <Cubo /> {t.prodotto.vista3d}
-                  </button>
-                )}
-                <p className="piccolo tenue galleria-aiuto">{vista === '3d' ? t.prodotto.istruzioni3d : mosca ? t.prodotto.istruzioniFoto : ''}</p>
-              </div>
-            )}
+            <div className="galleria-schede">
+              {p.cat === 'kit' && (
+                <div className="schede-vista" role="group" aria-label="Viste del prodotto">
+                  <button type="button" aria-pressed={vista === 'foto'} className={vista === 'foto' ? 'on' : ''} onClick={() => setVista('foto')}><IconaFoto /> {t.prodotto.foto}</button>
+                  <button type="button" aria-pressed={vista === 'scatola'} className={vista === 'scatola' ? 'on' : ''} onClick={() => setVista('scatola')}><Cubo /> {t.prodotto.apri}</button>
+                </div>
+              )}
+              <p className="piccolo tenue galleria-aiuto">{vista === 'foto' ? t.prodotto.istruzioniFoto : ''}</p>
+            </div>
           </div>
 
           <div className="scheda-info">

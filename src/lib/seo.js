@@ -17,6 +17,30 @@ const pagine = {
     titolo: `Negozio di mosche da pesca · ${MARCHIO}`,
     descrizione: 'Tutte le mosche da pesca artigianali: mosche secche, sommerse, ninfe pesca a mosca e streamer, con kit e attrezzatura. Filtra per amo, stagione, pesce e acqua.',
   },
+  '/negozio/secche': {
+    titolo: `Mosche secche artigianali per la pesca a mosca · ${MARCHIO}`,
+    descrizione: 'Mosche secche legate a mano: Adams, Elk Hair Caddis, Klinkhammer, Royal Wulff e altre, in più misure dell’amo. Per trota e temolo.',
+  },
+  '/negozio/sommerse': {
+    titolo: `Mosche sommerse classiche · ${MARCHIO}`,
+    descrizione: 'Mosche sommerse legate a mano: Royal Coachman, Starna e fagiano, Grizzly King, Alexandra e mosche da salmone.',
+  },
+  '/negozio/ninfe': {
+    titolo: `Ninfe per la pesca a mosca · ${MARCHIO}`,
+    descrizione: 'Ninfe pesca a mosca legate a mano: Prince testa oro, Orecchio di lepre, Montana stone, Perlide nera, March Brown, Soft hackle.',
+  },
+  '/negozio/streamer': {
+    titolo: `Streamer per trota · ${MARCHIO}`,
+    descrizione: 'Streamer legati a mano per le grandi trote: Woolly Bugger, Clouser, Muddler Minnow, Mickey Finn, White Minnow.',
+  },
+  '/negozio/kit-e-regali': {
+    titolo: `Kit di mosche e regali per chi pesca · ${MARCHIO}`,
+    descrizione: 'Kit per cominciare la pesca a mosca, scatole di mosche già composte, kit per costruire le mosche e buoni regalo.',
+  },
+  '/negozio/attrezzatura': {
+    titolo: `Attrezzatura per la pesca a mosca · ${MARCHIO}`,
+    descrizione: 'Canne da mosca, code di topo in seta, scatole per mosche e morse per costruire le mosche.',
+  },
   '/calendario': {
     titolo: `Calendario delle schiuse mese per mese · ${MARCHIO}`,
     descrizione: 'Effimere, tricotteri, plecotteri e chironomidi: quali insetti nascono ogni mese nei torrenti alpini e quali mosche secche e ninfe usare.',

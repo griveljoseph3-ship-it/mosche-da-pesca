@@ -39,6 +39,15 @@ export const Cubo = ({ size = 16, ...p }) => (
 export const Foto = ({ size = 16, ...p }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" aria-hidden="true" {...s} {...p}><rect x="3" y="5" width="18" height="14" rx="1.5" /><circle cx="12" cy="12" r="3.5" /></svg>
 );
+export const Lente = ({ size = 16, ...p }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" aria-hidden="true" {...s} {...p}><circle cx="10.5" cy="10.5" r="6" /><path d="m15 15 5 5M10.5 8v5M8 10.5h5" /></svg>
+);
+export const Altoparlante = ({ size = 18, attivo = false, ...p }) => (
+  <svg width={size} height={size} viewBox="0 0 24 24" aria-hidden="true" {...s} {...p}>
+    <path d="M4 9.5h3.5L12 6v12l-4.5-3.5H4z" />
+    {attivo ? <path d="M15.5 9a4 4 0 0 1 0 6M18 6.5a7.5 7.5 0 0 1 0 11" /> : <path d="m16 9.5 5 5M21 9.5l-5 5" />}
+  </svg>
+);
 export const Onda = ({ size = 18, attivo = false, ...p }) => (
   <svg width={size} height={size} viewBox="0 0 24 24" aria-hidden="true" {...s} {...p}>
     {attivo ? (

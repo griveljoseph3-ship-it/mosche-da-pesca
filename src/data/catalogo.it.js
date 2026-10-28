@@ -135,12 +135,13 @@ export default {
     ricetta: ['Amo: ninfa, 12–14', 'Coda: fibre di starna', 'Corpo: dubbing oliva con filo d’oro', 'Sacca: piuma chiara', 'Zampe: starna'],
     quando: 'Marzo e aprile, mezzogiorno, prime schiuse della stagione.',
   },
-  'perdigon-fario': {
-    nome: 'Perdigón Fario',
-    breve: 'Liscia, sottile e pesante: va giù subito.',
-    descrizione: 'La ninfa delle gare: corpo liscio sotto resina, testina in tungsteno ramato e un punto arancio sul torace. Taglia la corrente come un ago.',
-    ricetta: ['Amo: jig senza ardiglione, 14–18', 'Testina: tungsteno ramato', 'Coda: fibre di coq de Léon', 'Corpo: filo verde sotto resina', 'Torace: punto arancio'],
-    quando: 'Tutto l’anno, a ninfa al filo nelle correnti veloci.',
+
+  'tris-salmone': {
+    nome: 'Tris di sommerse da salmone',
+    breve: 'Tre sommerse classiche dai colori vivi, arancio e rosso.',
+    descrizione: 'Tre mosche sommerse legate secondo le ricette tradizionali da salmone: ali in fibre miste, tinsel e hackle morbido. Si pescano a valle, in corrente lenta, o si regalano.',
+    ricetta: ['Amo: salmone, 4–8', 'Coda: fagiano dorato', 'Corpo: seta e tinsel ovale', 'Hackle: gallina tinta', 'Ala: fibre miste'],
+    quando: 'Primavera e autunno, grandi laghi e fiumi lenti.',
   },
 
   'woolly-bugger': {
@@ -178,13 +179,6 @@ export default {
     ricetta: ['Amo: lungo, 4–8', 'Coda: marabù bianco', 'Corpo: tinsel perlato', 'Testa: pelo di cervo bianco tosato', 'Occhi: dipinti'],
     quando: 'Primavera e autunno, laghi e foci, quando gli avannotti si radunano.',
   },
-  'matuka-fario': {
-    nome: 'Matuka Fario',
-    breve: 'Ala di piume legata sul dorso: nuota come un pesce.',
-    descrizione: 'Due piume di gallo legate lungo il corpo con il filo d’oro: l’ala non si attorciglia e il profilo resta quello di un piccolo pesce. Testina dorata.',
-    ricetta: ['Amo: lungo, 4–8', 'Testina: ottone', 'Corpo: dubbing color ambra con ovale oro', 'Ala: gallo badger legato in stile matuka', 'Gola: fibre scure'],
-    quando: 'Primavera, autunno e inverno, nelle buche profonde.',
-  },
 
   'kit-primo-torrente': {
     nome: 'Kit Primo Torrente',
@@ -214,13 +208,14 @@ export default {
     contenuto: ['Morsa con base', 'Porta-bobina, forbici, pinza hackle, ago', 'Ami in quattro misure', 'Piume, peli, dubbing e fili', 'Quaderno con 10 ricette'],
     quando: 'Per le sere d’inverno, quando il fiume riposa.',
   },
-  'cofanetto-salmone-classico': {
-    nome: 'Cofanetto Salmone Classico',
-    breve: 'Tre mosche da salmone legate a mano, da regalo.',
-    descrizione: 'Tre mosche da salmone dai colori vivi, legate con piume naturali e presentate su piume di fagiano in una scatola rigida.',
-    contenuto: ['3 mosche da salmone classiche', 'Scatola rigida con finestra', 'Certificato di legatura a mano'],
-    quando: 'Un regalo da collezione.',
+  'buono-regalo': {
+    nome: 'Buono regalo',
+    breve: 'Per chi pesca: sceglie lui la mosca, tu fai il regalo.',
+    descrizione: 'Un buono da 50 € da spendere in tutto il negozio, stampato su carta di cotone e chiuso in una busta con il nastro. Non scade.',
+    contenuto: ['Buono da 50 € su carta di cotone', 'Busta chiusa con nastro', 'Biglietto scritto a mano'],
+    quando: 'Compleanni, Natale, l’apertura della stagione.',
   },
+
   'assortimento-fario-36': {
     nome: 'Assortimento Fario 36',
     breve: '36 mosche miste per la trota, in scatola trasparente.',

@@ -26,7 +26,7 @@ export default {
   suono: { attiva: 'Attiva il suono del torrente', disattiva: 'Disattiva il suono del torrente', etichetta: 'Suono' },
 
   home: {
-    occhiello: 'Mosche da pesca legate a mano, una per una',
+    occhiello: 'Mosche da pesca legate a mano',
     titolo: ['Il fiume', 'comincia all’alba.'],
     sottotitolo: 'Mosche secche, sommerse, ninfe e streamer nate al banco, provate nei torrenti alpini.',
     ctaNegozio: 'Entra nel negozio',
@@ -103,8 +103,19 @@ export default {
   pesci: { trota: 'Trota', temolo: 'Temolo' },
   acque: { torrente: 'Torrente', lago: 'Lago' },
 
+  descrizioniCategorie: {
+    secca: 'Galleggiano sul pelo dell’acqua e imitano l’insetto adulto. Per le bollate della sera e le schiuse del giorno.',
+    sommersa: 'Ali raccolte, hackle morbido: scendono nella corrente come un insetto che annega o che nasce.',
+    ninfa: 'Imitano le larve che vivono sul fondo, tra i sassi. Testine in ottone per arrivare giù in fretta.',
+    streamer: 'Imitano il pesciolino. Per le fario grandi, le buche profonde e l’acqua velata.',
+    kit: 'Scatole già composte, kit per cominciare e per costruire le mosche, buoni regalo.',
+    attrezzatura: 'Canne, code, scatole e attrezzi scelti per i torrenti alpini.',
+  },
   negozio: {
     titolo: 'Negozio',
+    tutte: 'Vedi tutte',
+    tuttoIlNegozio: 'Tutto il negozio',
+    tipiDiMosca: 'Tipi di mosca',
     intro: 'Mosche artigianali e attrezzatura scelta. Filtra per tipo, misura dell’amo, stagione, pesce e acqua.',
     filtri: 'Filtri',
     mostraFiltri: 'Mostra filtri',
@@ -130,11 +141,10 @@ export default {
     aumenta: 'Aumenta quantità',
     misura: 'Misura dell’amo',
     alPezzo: 'al pezzo',
-    vista3d: 'Vista 3D',
-    foto: 'Foto macro',
-    istruzioni3d: 'Trascina per ruotare · rotella o pizzica per la macro',
-    istruzioniFoto: 'Muovi il puntatore per la profondità',
-    caricamento3d: 'Preparo la mosca…',
+    foto: 'Foto',
+    zoom: 'Ingrandisci',
+    zoomEsci: 'Riduci',
+    istruzioniFoto: 'Premi “Ingrandisci” e muoviti sulla foto per vedere i dettagli',
     dettagli: 'Dettagli',
     ricetta: 'La ricetta',
     quando: 'Quando usarla',
@@ -145,9 +155,8 @@ export default {
     stagioni: 'Stagioni',
     pesci: 'Pesci',
     acque: 'Acque',
-    render: 'Immagine: render 3D procedurale',
     contenuto: 'Cosa c’è dentro',
-    apri: 'Apri la scatola',
+    apri: 'Confezione',
   },
 
   carrello: {
@@ -236,7 +245,7 @@ export default {
 
   crediti: {
     titolo: 'Crediti',
-    intro: 'Le foto e i modelli 3D di questo sito sono gratuiti e con licenza libera. Grazie a chi li ha creati e condivisi.',
+    intro: 'Tutte le foto di questo sito sono vere, gratuite e con licenza libera. Grazie a chi le ha scattate e condivise.',
     foto: 'Fotografie',
     tre: 'Modelli, texture e luci 3D',
     altro: 'Caratteri, suoni e grafica',

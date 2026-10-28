@@ -8,7 +8,7 @@ export const insetti = [
     colore: '#9aa6a0',
     nota: 'Piccolissimi e sempre presenti. Nei mesi freddi sono spesso l’unica schiusa del giorno.',
     mesi: [3, 3, 2, 1, 1, 1, 1, 1, 1, 2, 3, 3],
-    mosche: ['perdigon-fario', 'sparkle-dun-olive', 'black-wulff'],
+    mosche: ['sparkle-dun-olive', 'black-wulff', 'starna-e-fagiano'],
   },
   {
     id: 'baetis',
@@ -71,7 +71,7 @@ export const insetti = [
     colore: '#7f9aa3',
     nota: 'Non è una schiusa, ma in autunno le grandi fario cacciano i pesciolini.',
     mesi: [1, 1, 2, 1, 1, 1, 1, 1, 2, 3, 2, 1],
-    mosche: ['muddler-minnow', 'woolly-bugger', 'matuka-fario', 'white-minnow'],
+    mosche: ['muddler-minnow', 'woolly-bugger', 'white-minnow', 'mickey-finn'],
   },
 ];
 

@@ -1,10 +1,11 @@
 import { useEffect, useState } from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { testi as t } from '../i18n/index.js';
+import { CATEGORIE, urlCategoria } from '../data/catalogo.js';
 import { useCarrello } from '../stato/carrello.jsx';
 import { attivaSuono, suCambioSuono, suonoAttivo } from '../lib/suono.js';
 import { blocca } from '../lib/scorrimento.js';
-import { Borsa, Chiudi, Logo, Menu, Onda } from './Icone.jsx';
+import { Altoparlante, Borsa, Chiudi, Logo, Menu } from './Icone.jsx';
 
 const voci = [
   ['/negozio', t.nav.negozio],
@@ -66,8 +67,7 @@ export default function Header() {
             aria-label={suono ? t.suono.disattiva : t.suono.attiva}
             title={suono ? t.suono.disattiva : t.suono.attiva}
           >
-            <Onda attivo={suono} />
-            <span className="suono-testo">{t.suono.etichetta}</span>
+            <Altoparlante attivo={suono} />
           </button>
           <button type="button" className={`btn-carrello ${pulsa ? 'pulsa' : ''}`} onClick={() => setAperto(true)} aria-label={`${t.carrello.apri}, ${t.carrello.articoli(pezzi)}`}>
             <Borsa />
@@ -81,7 +81,14 @@ export default function Header() {
       <div id="menu-mobile" className="menu-mobile" hidden={!menu}>
         <nav aria-label="Menu">
           {[...voci, ['/contatti', t.nav.contatti]].map(([to, nome], i) => (
-            <Link key={to} to={to} style={{ '--i': i }} className="menu-voce" viewTransition>{nome}</Link>
+            <div key={to}>
+              <Link to={to} style={{ '--i': i }} className="menu-voce" viewTransition>{nome}</Link>
+              {to === '/negozio' && (
+                <div className="menu-tipi">
+                  {CATEGORIE.map((c) => <Link key={c} to={urlCategoria(c)}>{t.categoriePlurale[c]}</Link>)}
+                </div>
+              )}
+            </div>
           ))}
         </nav>
         <p className="menu-piede piccolo tenue">{t.avvisoDemo}</p>

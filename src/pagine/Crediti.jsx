@@ -8,8 +8,7 @@ const nomeFoto = (file) => file.replace(/\.jpg$/, '');
 const altri = [
   { cosa: 'Cormorant Garamond (titoli)', autore: 'Christian Thalmann, Catharsis Fonts', licenza: 'SIL Open Font License 1.1', url: 'https://github.com/CatharsisFonts/Cormorant' },
   { cosa: 'Inter (testi)', autore: 'Rasmus Andersson', licenza: 'SIL Open Font License 1.1', url: 'https://github.com/rsms/inter' },
-  { cosa: 'Acqua, cielo, nebbia, abeti, trota e particelle 3D (shader e geometrie procedurali)', autore: 'Creati con codice per questo progetto', licenza: 'CC0 1.0', url: null },
-  { cosa: 'Mosche 3D procedurali (ninfe e streamer) e render “Perdigón Fario” e “Matuka Fario”', autore: 'Creati con codice per questo progetto', licenza: 'CC0 1.0', url: null },
+  { cosa: 'Effetto dell’acqua che scorre sulle foto del fiume (shader WebGL)', autore: 'Creato con codice per questo progetto', licenza: 'CC0 1.0', url: null },
   { cosa: 'Suono del torrente (sintetizzato con Web Audio)', autore: 'Creato con codice per questo progetto', licenza: 'CC0 1.0', url: null },
   { cosa: 'Icone e logo SVG', autore: 'Disegnati per questo progetto', licenza: 'CC0 1.0', url: null },
 ];
@@ -52,23 +51,7 @@ export default function Crediti() {
             </ul>
           </section>
         ))}
-        <p className="piccolo tenue">Le foto di mulinelli con marchi visibili (Fladen, British Fly Reels) sono incluse solo come materiale del progetto e non rappresentano prodotti in vendita di quei marchi.</p>
-
-        <h2 className="titolo-2">{t.crediti.tre}</h2>
-        <table className="tabella-crediti">
-          <thead><tr><th>Tipo</th><th>{t.crediti.file}</th><th>{t.crediti.autore}</th><th>{t.crediti.licenza}</th><th>{t.crediti.fonte}</th></tr></thead>
-          <tbody>
-            {crediti.tre.map((m) => (
-              <tr key={m.file}>
-                <td>{m.tipo}</td>
-                <td>{m.file.split('/').filter(Boolean).slice(-1)[0]}</td>
-                <td>{m.autore}</td>
-                <td><a href={m.licenzaUrl} className="link-sottile" target="_blank" rel="noopener noreferrer license">{m.licenza}</a></td>
-                <td>{m.fonte ? <a href={m.fonte} className="link-sottile" target="_blank" rel="noopener noreferrer">Poly Haven</a> : 'Questo progetto'}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+        <p className="piccolo tenue">Il sito usa solo fotografie vere. Le foto di mulinelli con marchi visibili (Fladen, British Fly Reels) presenti nel repository non sono usate per i prodotti.</p>
 
         <h2 className="titolo-2">{t.crediti.altro}</h2>
         <ul className="crediti-altri">

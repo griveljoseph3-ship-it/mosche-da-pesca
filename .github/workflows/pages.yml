@@ -1,21 +1,20 @@
 name: Pubblica su GitHub Pages
 
+# Costruisce il sito e lo pubblica sul branch gh-pages, che GitHub Pages serve così com'è.
 on:
   push:
     branches: [main]
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
   cancel-in-progress: false
 
 jobs:
-  build:
+  pubblica:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -28,22 +27,15 @@ jobs:
       - name: Installa le dipendenze
         run: npm ci
 
-      # Le foto WebP/AVIF, i GLB Draco e gli HDRI leggeri sono già in public/ (npm run assets).
+      # Le foto WebP/AVIF sono già in public/ (npm run assets).
       - name: Costruisci il sito (base /mosche-da-pesca/)
         run: npm run build
 
-      - uses: actions/configure-pages@v5
-
-      - uses: actions/upload-pages-artifact@v3
+      - name: Pubblica dist/ sul branch gh-pages
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          path: dist
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          force_orphan: true
+          commit_message: 'Pubblica il sito'

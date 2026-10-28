@@ -1,4 +1,4 @@
-// Stato condiviso tra la pagina (scroll) e la scena 3D, senza passare da React a ogni frame.
+// Stato condiviso tra la pagina (scroll) e l'effetto WebGL del fiume, senza passare da React a ogni frame.
 export const statoFiume = {
   p: 0, // avanzamento nel fiume 0..1 (hero -> streamer)
   pLiscio: 0,
